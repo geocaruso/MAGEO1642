@@ -1,0 +1,1036 @@
+﻿DATAFLOW,FREQ: Fréquence,SPECIFICATION: Spécification,TIME_PERIOD: Période,OBS_VALUE,NOTE_YEAR_2: Note année 2,NOTE_YEAR_1: Note année 1,NOTE_SPECIFICATION_2: Note spécification 2,NOTE_SPECIFICATION_1: Note spécification 1,OBS_STATUS: Statut d'observation,DECIMALS: Décimales
+LU1:DF_X021(1.0),A: Annuelle,CM10004: Esch-sur-Alzette,2015,33286,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM10004: Esch-sur-Alzette,2016,33939,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM10004: Esch-sur-Alzette,2017,34378,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM10004: Esch-sur-Alzette,2018,35040,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM10004: Esch-sur-Alzette,2019,35382,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM10004: Esch-sur-Alzette,2020,36218,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM10004: Esch-sur-Alzette,2021,36228,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM10004: Esch-sur-Alzette,2022,36177,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM10004: Esch-sur-Alzette,2023,36625,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM11008: Steinsel,2015,5016,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM11008: Steinsel,2016,5171,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM11008: Steinsel,2017,5311,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM11008: Steinsel,2018,5321,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM11008: Steinsel,2019,5408,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM11008: Steinsel,2020,5443,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM11008: Steinsel,2021,5500,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM11008: Steinsel,2022,5544,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM11008: Steinsel,2023,5539,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM12004: Heffingen,2015,1201,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM12004: Heffingen,2016,1239,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM12004: Heffingen,2017,1317,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM12004: Heffingen,2018,1394,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM12004: Heffingen,2019,1468,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM12004: Heffingen,2020,1504,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM12004: Heffingen,2021,1520,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM12004: Heffingen,2022,1520,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM12004: Heffingen,2023,1549,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM01004: Weiswampach,2015,1572,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM01004: Weiswampach,2016,1676,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM01004: Weiswampach,2017,1760,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM01004: Weiswampach,2018,1843,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM01004: Weiswampach,2019,1912,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM01004: Weiswampach,2020,2005,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM01004: Weiswampach,2021,2104,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM01004: Weiswampach,2022,2235,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM01004: Weiswampach,2023,2313,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM03004: Préizerdaul,2015,1593,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM03004: Préizerdaul,2016,1621,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM03004: Préizerdaul,2017,1705,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM03004: Préizerdaul,2018,1717,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM03004: Préizerdaul,2019,1703,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM03004: Préizerdaul,2020,1698,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM03004: Préizerdaul,2021,1725,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM03004: Préizerdaul,2022,1763,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM03004: Préizerdaul,2023,1827,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM06002: Bech,2015,1260,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM06002: Bech,2016,1231,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM06002: Bech,2017,1287,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM06002: Bech,2018,1265,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM06002: Bech,2019,1259,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM06002: Bech,2020,1273,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM06002: Bech,2021,1305,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM06002: Bech,2022,1330,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM06002: Bech,2023,1357,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CT07: Canton Grevenmacher,2015,27959,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CT07: Canton Grevenmacher,2016,28492,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CT07: Canton Grevenmacher,2017,29525,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CT07: Canton Grevenmacher,2018,29828,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CT07: Canton Grevenmacher,2019,30361,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CT07: Canton Grevenmacher,2020,30887,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CT07: Canton Grevenmacher,2021,31378,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CT07: Canton Grevenmacher,2022,31748,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CT07: Canton Grevenmacher,2023,32524,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM08005: Remich,2015,3476,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM08005: Remich,2016,3482,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM08005: Remich,2017,3632,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM08005: Remich,2018,3645,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM08005: Remich,2019,3707,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM08005: Remich,2020,3732,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM08005: Remich,2021,3787,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM08005: Remich,2022,3825,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM08005: Remich,2023,4015,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CT11: Canton Luxembourg,2015,172332,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CT11: Canton Luxembourg,2016,177969,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CT11: Canton Luxembourg,2017,179369,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CT11: Canton Luxembourg,2018,182607,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CT11: Canton Luxembourg,2019,186533,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CT11: Canton Luxembourg,2020,190671,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CT11: Canton Luxembourg,2021,193509,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CT11: Canton Luxembourg,2022,198476,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CT11: Canton Luxembourg,2023,204358,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM01005: Wincrange,2015,4099,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM01005: Wincrange,2016,4141,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM01005: Wincrange,2017,4227,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM01005: Wincrange,2018,4336,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM01005: Wincrange,2019,4392,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM01005: Wincrange,2020,4503,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM01005: Wincrange,2021,4574,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM01005: Wincrange,2022,4691,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM01005: Wincrange,2023,4804,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM03002: Ell,2015,1235,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM03002: Ell,2016,1230,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM03002: Ell,2017,1265,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM03002: Ell,2018,1289,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM03002: Ell,2019,1350,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM03002: Ell,2020,1425,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM03002: Ell,2021,1511,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM03002: Ell,2022,1548,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM03002: Ell,2023,1582,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM05004: Kiischpelt,2015,1110,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM05004: Kiischpelt,2016,1114,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM05004: Kiischpelt,2017,1168,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM05004: Kiischpelt,2018,1202,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM05004: Kiischpelt,2019,1201,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM05004: Kiischpelt,2020,1214,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM05004: Kiischpelt,2021,1209,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM05004: Kiischpelt,2022,1230,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM05004: Kiischpelt,2023,1260,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM07002: Biwer,2015,1821,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM07002: Biwer,2016,1857,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM07002: Biwer,2017,1813,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM07002: Biwer,2018,1817,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM07002: Biwer,2019,1861,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM07002: Biwer,2020,1834,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM07002: Biwer,2021,1884,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM07002: Biwer,2022,1917,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM07002: Biwer,2023,1926,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM08007: Stadtbredimus,2015,1674,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM08007: Stadtbredimus,2016,1794,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM08007: Stadtbredimus,2017,1866,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM08007: Stadtbredimus,2018,1904,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM08007: Stadtbredimus,2019,1894,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM08007: Stadtbredimus,2020,1947,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM08007: Stadtbredimus,2021,1968,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM08007: Stadtbredimus,2022,1978,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM08007: Stadtbredimus,2023,1984,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM09001: Dippach,2015,4037,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM09001: Dippach,2016,4071,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM09001: Dippach,2017,4178,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM09001: Dippach,2018,4210,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM09001: Dippach,2019,4333,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM09001: Dippach,2020,4449,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM09001: Dippach,2021,4461,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM09001: Dippach,2022,4494,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM09001: Dippach,2023,4635,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM11011: Weiler-la-Tour,2015,2178,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM11011: Weiler-la-Tour,2016,2245,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM11011: Weiler-la-Tour,2017,2387,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM11011: Weiler-la-Tour,2018,2389,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM11011: Weiler-la-Tour,2019,2400,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM11011: Weiler-la-Tour,2020,2404,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM11011: Weiler-la-Tour,2021,2456,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM11011: Weiler-la-Tour,2022,2497,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM11011: Weiler-la-Tour,2023,2498,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CT12: Canton Mersch,2015,29867,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CT12: Canton Mersch,2016,30382,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CT12: Canton Mersch,2017,31351,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CT12: Canton Mersch,2018,32112,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CT12: Canton Mersch,2019,32725,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CT12: Canton Mersch,2020,33326,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CT12: Canton Mersch,2021,34063,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CT12: Canton Mersch,2022,34721,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CT12: Canton Mersch,2023,35579,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM02010: Vallée de l'Ernz,2015,2520,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM02010: Vallée de l'Ernz,2016,2570,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM02010: Vallée de l'Ernz,2017,2591,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM02010: Vallée de l'Ernz,2018,2594,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM02010: Vallée de l'Ernz,2019,2641,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM02010: Vallée de l'Ernz,2020,2653,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM02010: Vallée de l'Ernz,2021,2687,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM02010: Vallée de l'Ernz,2022,2674,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM02010: Vallée de l'Ernz,2023,2770,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CT03: Canton Redange,2015,17401,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CT03: Canton Redange,2016,17609,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CT03: Canton Redange,2017,18351,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CT03: Canton Redange,2018,18664,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CT03: Canton Redange,2019,19096,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CT03: Canton Redange,2020,19473,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CT03: Canton Redange,2021,19866,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CT03: Canton Redange,2022,20371,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CT03: Canton Redange,2023,20874,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM03010: Wahl,2015,960,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM03010: Wahl,2016,951,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM03010: Wahl,2017,961,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM03010: Wahl,2018,1005,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM03010: Wahl,2019,1020,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM03010: Wahl,2020,1034,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM03010: Wahl,2021,1036,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM03010: Wahl,2022,1055,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM03010: Wahl,2023,1087,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM05006: Wiltz,2015,6387,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM05006: Wiltz,2016,6522,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM05006: Wiltz,2017,6730,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM05006: Wiltz,2018,6866,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM05006: Wiltz,2019,7066,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM05006: Wiltz,2020,7273,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM05006: Wiltz,2021,7533,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM05006: Wiltz,2022,7723,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM05006: Wiltz,2023,7949,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM06007: Waldbillig,2015,1554,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM06007: Waldbillig,2016,1644,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM06007: Waldbillig,2017,1767,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM06007: Waldbillig,2018,1783,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM06007: Waldbillig,2019,1803,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM06007: Waldbillig,2020,1832,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM06007: Waldbillig,2021,1902,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM06007: Waldbillig,2022,1922,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM06007: Waldbillig,2023,1960,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM08001: Bous,2015,1480,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM08001: Bous,2016,1518,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM08001: Bous,2017,1553,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM08001: Bous,2018,1621,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM08001: Bous,2019,1652,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM08001: Bous,2020,1669,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM08001: Bous,2021,1711,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM08001: Bous,2022,1688,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM08001: Bous,2023,1752,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM11002: Contern,2015,3496,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM11002: Contern,2016,3511,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM11002: Contern,2017,3736,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM11002: Contern,2018,3816,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM11002: Contern,2019,3865,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM11002: Contern,2020,3939,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM11002: Contern,2021,3968,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM11002: Contern,2022,4177,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM11002: Contern,2023,4374,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM11005: Niederanven,2015,5737,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM11005: Niederanven,2016,5866,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM11005: Niederanven,2017,6090,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM11005: Niederanven,2018,6156,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM11005: Niederanven,2019,6222,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM11005: Niederanven,2020,6312,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM11005: Niederanven,2021,6349,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM11005: Niederanven,2022,6449,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM11005: Niederanven,2023,6660,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM12001: Bissen,2015,2846,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM12001: Bissen,2016,2879,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM12001: Bissen,2017,3021,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM12001: Bissen,2018,3095,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM12001: Bissen,2019,3183,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM12001: Bissen,2020,3216,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM12001: Bissen,2021,3269,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM12001: Bissen,2022,3329,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM12001: Bissen,2023,3450,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM06003: Berdorf,2015,1826,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM06003: Berdorf,2016,1931,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM06003: Berdorf,2017,1870,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM06003: Berdorf,2018,1747,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM06003: Berdorf,2019,1794,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM06003: Berdorf,2020,1868,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM06003: Berdorf,2021,1951,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM06003: Berdorf,2022,1984,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM06003: Berdorf,2023,2219,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM09005: Kehlen,2015,5375,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM09005: Kehlen,2016,5457,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM09005: Kehlen,2017,5903,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM09005: Kehlen,2018,6056,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM09005: Kehlen,2019,6143,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM09005: Kehlen,2020,6232,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM09005: Kehlen,2021,6138,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM09005: Kehlen,2022,6183,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM09005: Kehlen,2023,6391,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM10012: Rumelange,2015,5338,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM10012: Rumelange,2016,5422,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM10012: Rumelange,2017,5573,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM10012: Rumelange,2018,5545,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM10012: Rumelange,2019,5608,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM10012: Rumelange,2020,5604,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM10012: Rumelange,2021,5613,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM10012: Rumelange,2022,5685,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM10012: Rumelange,2023,5692,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM11007: Schuttrange,2015,4033,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM11007: Schuttrange,2016,4147,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM11007: Schuttrange,2017,4028,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM11007: Schuttrange,2018,4156,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM11007: Schuttrange,2019,4166,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM11007: Schuttrange,2020,4274,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM11007: Schuttrange,2021,4272,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM11007: Schuttrange,2022,4318,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM11007: Schuttrange,2023,4387,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM12003: Fischbach,2015,1139,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM12003: Fischbach,2016,1174,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM12003: Fischbach,2017,1195,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM12003: Fischbach,2018,1236,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM12003: Fischbach,2019,1239,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM12003: Fischbach,2020,1215,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM12003: Fischbach,2021,1238,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM12003: Fischbach,2022,1256,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM12003: Fischbach,2023,1308,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM02007: Mertzig,2015,1998,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM02007: Mertzig,2016,2080,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM02007: Mertzig,2017,2115,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM02007: Mertzig,2018,2212,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM02007: Mertzig,2019,2251,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM02007: Mertzig,2020,2293,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM02007: Mertzig,2021,2285,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM02007: Mertzig,2022,2306,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM02007: Mertzig,2023,2370,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM05001: Boulaide,2015,1091,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM05001: Boulaide,2016,1122,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM05001: Boulaide,2017,1223,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM05001: Boulaide,2018,1256,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM05001: Boulaide,2019,1307,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM05001: Boulaide,2020,1344,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM05001: Boulaide,2021,1391,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM05001: Boulaide,2022,1441,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM05001: Boulaide,2023,1499,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM07004: Grevenmacher,2015,4751,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM07004: Grevenmacher,2016,4794,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM07004: Grevenmacher,2017,4923,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM07004: Grevenmacher,2018,4921,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM07004: Grevenmacher,2019,4904,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM07004: Grevenmacher,2020,4936,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM07004: Grevenmacher,2021,4981,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM07004: Grevenmacher,2022,5022,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM07004: Grevenmacher,2023,5092,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CT08: Canton Remich,2015,20520,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CT08: Canton Remich,2016,20983,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CT08: Canton Remich,2017,21987,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CT08: Canton Remich,2018,22366,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CT08: Canton Remich,2019,22806,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CT08: Canton Remich,2020,23244,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CT08: Canton Remich,2021,23529,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CT08: Canton Remich,2022,23717,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CT08: Canton Remich,2023,24186,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM08006: Schengen,2015,4459,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM08006: Schengen,2016,4615,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM08006: Schengen,2017,4805,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM08006: Schengen,2018,4812,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM08006: Schengen,2019,4833,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM08006: Schengen,2020,4924,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM08006: Schengen,2021,4956,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM08006: Schengen,2022,5090,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM08006: Schengen,2023,5196,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM09002: Garnich,2015,1991,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM09002: Garnich,2016,2043,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM09002: Garnich,2017,2099,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM09002: Garnich,2018,2129,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM09002: Garnich,2019,2167,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM09002: Garnich,2020,2193,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM09002: Garnich,2021,2221,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM09002: Garnich,2022,2253,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM09002: Garnich,2023,2289,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM11001: Bertrange,2015,6869,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM11001: Bertrange,2016,7387,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM11001: Bertrange,2017,7999,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM11001: Bertrange,2018,8157,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM11001: Bertrange,2019,8282,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM11001: Bertrange,2020,8432,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM11001: Bertrange,2021,8472,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM11001: Bertrange,2022,8530,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM11001: Bertrange,2023,8668,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM12007: Lintgen,2015,2798,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM12007: Lintgen,2016,2811,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM12007: Lintgen,2017,2902,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM12007: Lintgen,2018,3039,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM12007: Lintgen,2019,3108,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM12007: Lintgen,2020,3155,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM12007: Lintgen,2021,3235,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM12007: Lintgen,2022,3398,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM12007: Lintgen,2023,3436,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM01002: Parc Hosingen,2015,3297,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM01002: Parc Hosingen,2016,3350,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM01002: Parc Hosingen,2017,3434,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM01002: Parc Hosingen,2018,3495,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM01002: Parc Hosingen,2019,3591,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM01002: Parc Hosingen,2020,3669,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM01002: Parc Hosingen,2021,3732,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM01002: Parc Hosingen,2022,3853,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM01002: Parc Hosingen,2023,4036,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM04002: Tandel,2015,1889,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM04002: Tandel,2016,1943,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM04002: Tandel,2017,2031,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM04002: Tandel,2018,2048,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM04002: Tandel,2019,2083,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM04002: Tandel,2020,2222,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM04002: Tandel,2021,2214,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM04002: Tandel,2022,2194,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM04002: Tandel,2023,2238,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM07005: Junglinster,2015,7094,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM07005: Junglinster,2016,7261,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM07005: Junglinster,2017,7537,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM07005: Junglinster,2018,7613,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM07005: Junglinster,2019,7802,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM07005: Junglinster,2020,8090,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM07005: Junglinster,2021,8233,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM07005: Junglinster,2022,8470,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM07005: Junglinster,2023,8622,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM08002: Dalheim,2015,2033,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM08002: Dalheim,2016,2045,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM08002: Dalheim,2017,2148,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM08002: Dalheim,2018,2262,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM08002: Dalheim,2019,2325,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM08002: Dalheim,2020,2356,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM08002: Dalheim,2021,2358,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM08002: Dalheim,2022,2385,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM08002: Dalheim,2023,2408,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM09009: Steinfort,2015,4682,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM09009: Steinfort,2016,4762,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM09009: Steinfort,2017,5081,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM09009: Steinfort,2018,5126,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM09009: Steinfort,2019,5281,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM09009: Steinfort,2020,5459,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM09009: Steinfort,2021,5617,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM09009: Steinfort,2022,5754,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM09009: Steinfort,2023,5871,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM10001: Bettembourg,2015,10178,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM10001: Bettembourg,2016,10400,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM10001: Bettembourg,2017,10736,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM10001: Bettembourg,2018,11003,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM10001: Bettembourg,2019,11197,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM10001: Bettembourg,2020,11319,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM10001: Bettembourg,2021,11374,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM10001: Bettembourg,2022,11405,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM10001: Bettembourg,2023,11422,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM10007: Leudelange,2015,2400,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM10007: Leudelange,2016,2445,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM10007: Leudelange,2017,2596,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM10007: Leudelange,2018,2579,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM10007: Leudelange,2019,2668,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM10007: Leudelange,2020,2702,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM10007: Leudelange,2021,2704,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM10007: Leudelange,2022,2710,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM10007: Leudelange,2023,2766,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM10008: Mondercange,2015,6420,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM10008: Mondercange,2016,6510,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM10008: Mondercange,2017,6708,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM10008: Mondercange,2018,6936,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM10008: Mondercange,2019,6959,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM10008: Mondercange,2020,7007,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM10008: Mondercange,2021,6982,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM10008: Mondercange,2022,6964,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM10008: Mondercange,2023,7119,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM10009: Pétange,2015,17582,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM10009: Pétange,2016,17973,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM10009: Pétange,2017,18238,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM10009: Pétange,2018,18688,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM10009: Pétange,2019,19154,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM10009: Pétange,2020,19574,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM10009: Pétange,2021,20084,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM10009: Pétange,2022,20408,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM10009: Pétange,2023,20563,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM12009: Mersch,2015,8841,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM12009: Mersch,2016,9046,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM12009: Mersch,2017,9195,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM12009: Mersch,2018,9440,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM12009: Mersch,2019,9643,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM12009: Mersch,2020,9816,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM12009: Mersch,2021,10018,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM12009: Mersch,2022,10167,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM12009: Mersch,2023,10393,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CT04: Canton Vianden,2015,4847,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CT04: Canton Vianden,2016,4951,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CT04: Canton Vianden,2017,5162,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CT04: Canton Vianden,2018,5163,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CT04: Canton Vianden,2019,5288,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CT04: Canton Vianden,2020,5510,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CT04: Canton Vianden,2021,5482,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CT04: Canton Vianden,2022,5516,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CT04: Canton Vianden,2023,5594,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM05005: Lac de la Haute-Sûre,2015,1707,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM05005: Lac de la Haute-Sûre,2016,1722,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM05005: Lac de la Haute-Sûre,2017,1860,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM05005: Lac de la Haute-Sûre,2018,1912,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM05005: Lac de la Haute-Sûre,2019,1952,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM05005: Lac de la Haute-Sûre,2020,2013,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM05005: Lac de la Haute-Sûre,2021,2084,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM05005: Lac de la Haute-Sûre,2022,2175,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM05005: Lac de la Haute-Sûre,2023,2253,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,LU: Grand-Duché de Luxembourg,2015,562958,,,"LU: Jusqu'en 1970 et pour les années 1981, 1991, 2001 et 2011 : date du recensement général de la population. Pour les autres années: situation au 1er janvier. Rupture de séries: à partir de 1821, Source: STATEC à partir de 2017, Source: STATEC et CTIE",,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,LU: Grand-Duché de Luxembourg,2016,576249,,,"LU: Jusqu'en 1970 et pour les années 1981, 1991, 2001 et 2011 : date du recensement général de la population. Pour les autres années: situation au 1er janvier. Rupture de séries: à partir de 1821, Source: STATEC à partir de 2017, Source: STATEC et CTIE",,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,LU: Grand-Duché de Luxembourg,2017,590667,,,"LU: Jusqu'en 1970 et pour les années 1981, 1991, 2001 et 2011 : date du recensement général de la population. Pour les autres années: situation au 1er janvier. Rupture de séries: à partir de 1821, Source: STATEC à partir de 2017, Source: STATEC et CTIE",,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,LU: Grand-Duché de Luxembourg,2018,602005,,,"LU: Jusqu'en 1970 et pour les années 1981, 1991, 2001 et 2011 : date du recensement général de la population. Pour les autres années: situation au 1er janvier. Rupture de séries: à partir de 1821, Source: STATEC à partir de 2017, Source: STATEC et CTIE",,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,LU: Grand-Duché de Luxembourg,2019,613894,,,"LU: Jusqu'en 1970 et pour les années 1981, 1991, 2001 et 2011 : date du recensement général de la population. Pour les autres années: situation au 1er janvier. Rupture de séries: à partir de 1821, Source: STATEC à partir de 2017, Source: STATEC et CTIE",,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,LU: Grand-Duché de Luxembourg,2020,626108,,,"LU: Jusqu'en 1970 et pour les années 1981, 1991, 2001 et 2011 : date du recensement général de la population. Pour les autres années: situation au 1er janvier. Rupture de séries: à partir de 1821, Source: STATEC à partir de 2017, Source: STATEC et CTIE",,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,LU: Grand-Duché de Luxembourg,2021,634730,,,"LU: Jusqu'en 1970 et pour les années 1981, 1991, 2001 et 2011 : date du recensement général de la population. Pour les autres années: situation au 1er janvier. Rupture de séries: à partir de 1821, Source: STATEC à partir de 2017, Source: STATEC et CTIE",,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,LU: Grand-Duché de Luxembourg,2022,645397,,,"LU: Jusqu'en 1970 et pour les années 1981, 1991, 2001 et 2011 : date du recensement général de la population. Pour les autres années: situation au 1er janvier. Rupture de séries: à partir de 1821, Source: STATEC à partir de 2017, Source: STATEC et CTIE",,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,LU: Grand-Duché de Luxembourg,2023,660809,,,"LU: Jusqu'en 1970 et pour les années 1981, 1991, 2001 et 2011 : date du recensement général de la population. Pour les autres années: situation au 1er janvier. Rupture de séries: à partir de 1821, Source: STATEC à partir de 2017, Source: STATEC et CTIE",,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM09003: Habscht,2015,4205,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM09003: Habscht,2016,4247,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM09003: Habscht,2017,4330,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM09003: Habscht,2018,4426,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM09003: Habscht,2019,4528,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM09003: Habscht,2020,4730,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM09003: Habscht,2021,4803,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM09003: Habscht,2022,4946,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM09003: Habscht,2023,4992,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM10011: Roeser,2015,5736,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM10011: Roeser,2016,5891,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM10011: Roeser,2017,6125,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM10011: Roeser,2018,6278,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM10011: Roeser,2019,6459,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM10011: Roeser,2020,6551,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM10011: Roeser,2021,6560,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM10011: Roeser,2022,6605,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM10011: Roeser,2023,6657,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM10014: Schifflange,2015,9689,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM10014: Schifflange,2016,9924,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM10014: Schifflange,2017,10379,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM10014: Schifflange,2018,10750,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM10014: Schifflange,2019,11180,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM10014: Schifflange,2020,11293,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM10014: Schifflange,2021,11291,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM10014: Schifflange,2022,11141,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM10014: Schifflange,2023,11363,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CT02: Canton Diekirch,2015,31024,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CT02: Canton Diekirch,2016,31819,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CT02: Canton Diekirch,2017,32244,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CT02: Canton Diekirch,2018,32543,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CT02: Canton Diekirch,2019,33216,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CT02: Canton Diekirch,2020,33782,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CT02: Canton Diekirch,2021,33944,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CT02: Canton Diekirch,2022,34309,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CT02: Canton Diekirch,2023,35150,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM04001: Putscheid,2015,1070,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM04001: Putscheid,2016,1090,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM04001: Putscheid,2017,1123,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM04001: Putscheid,2018,1100,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM04001: Putscheid,2019,1125,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM04001: Putscheid,2020,1150,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM04001: Putscheid,2021,1107,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM04001: Putscheid,2022,1132,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM04001: Putscheid,2023,1153,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM07006: Manternach,2015,1885,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM07006: Manternach,2016,1916,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM07006: Manternach,2017,2068,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM07006: Manternach,2018,2127,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM07006: Manternach,2019,2163,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM07006: Manternach,2020,2181,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM07006: Manternach,2021,2216,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM07006: Manternach,2022,2249,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM07006: Manternach,2023,2298,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CT09: Canton Capellen,2015,44509,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CT09: Canton Capellen,2016,45276,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CT09: Canton Capellen,2017,47209,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CT09: Canton Capellen,2018,48187,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CT09: Canton Capellen,2019,49066,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CT09: Canton Capellen,2020,50094,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CT09: Canton Capellen,2021,50733,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CT09: Canton Capellen,2022,51691,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CT09: Canton Capellen,2023,52828,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM10003: Dudelange,2015,19734,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM10003: Dudelange,2016,20003,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM10003: Dudelange,2017,20480,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM10003: Dudelange,2018,20869,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM10003: Dudelange,2019,21087,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM10003: Dudelange,2020,21291,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM10003: Dudelange,2021,21513,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM10003: Dudelange,2022,21583,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM10003: Dudelange,2023,21953,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM10013: Sanem,2015,15415,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM10013: Sanem,2016,15748,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM10013: Sanem,2017,16136,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM10013: Sanem,2018,16780,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM10013: Sanem,2019,17277,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM10013: Sanem,2020,17550,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM10013: Sanem,2021,17895,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM10013: Sanem,2022,17949,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM10013: Sanem,2023,18333,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM11009: Strassen,2015,8026,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM11009: Strassen,2016,8497,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM11009: Strassen,2017,8828,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM11009: Strassen,2018,9232,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM11009: Strassen,2019,9589,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM11009: Strassen,2020,9888,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM11009: Strassen,2021,10249,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM11009: Strassen,2022,10320,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM11009: Strassen,2023,10538,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM01003: Troisvierges,2015,3039,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM01003: Troisvierges,2016,3112,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM01003: Troisvierges,2017,3141,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM01003: Troisvierges,2018,3179,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM01003: Troisvierges,2019,3201,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM01003: Troisvierges,2020,3296,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM01003: Troisvierges,2021,3367,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM01003: Troisvierges,2022,3465,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM01003: Troisvierges,2023,3513,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM04003: Vianden,2015,1888,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM04003: Vianden,2016,1918,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM04003: Vianden,2017,2008,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM04003: Vianden,2018,2015,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM04003: Vianden,2019,2080,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM04003: Vianden,2020,2138,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM04003: Vianden,2021,2161,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM04003: Vianden,2022,2190,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM04003: Vianden,2023,2203,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM08004: Mondorf-les-Bains,2015,4651,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM08004: Mondorf-les-Bains,2016,4800,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM08004: Mondorf-les-Bains,2017,4999,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM08004: Mondorf-les-Bains,2018,5082,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM08004: Mondorf-les-Bains,2019,5273,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM08004: Mondorf-les-Bains,2020,5359,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM08004: Mondorf-les-Bains,2021,5404,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM08004: Mondorf-les-Bains,2022,5436,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM08004: Mondorf-les-Bains,2023,5424,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM09004: Käerjeng,2015,9979,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM09004: Käerjeng,2016,10033,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM09004: Käerjeng,2017,10232,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM09004: Käerjeng,2018,10294,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM09004: Käerjeng,2019,10409,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM09004: Käerjeng,2020,10464,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM09004: Käerjeng,2021,10517,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM09004: Käerjeng,2022,10775,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM09004: Käerjeng,2023,11015,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM10002: Differdange,2015,24304,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM10002: Differdange,2016,24805,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM10002: Differdange,2017,25402,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM10002: Differdange,2018,26193,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM10002: Differdange,2019,26796,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM10002: Differdange,2020,27409,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM10002: Differdange,2021,27869,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM10002: Differdange,2022,28641,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM10002: Differdange,2023,29536,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM11006: Sandweiler,2015,3478,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM11006: Sandweiler,2016,3450,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM11006: Sandweiler,2017,3592,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM11006: Sandweiler,2018,3642,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM11006: Sandweiler,2019,3676,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM11006: Sandweiler,2020,3698,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM11006: Sandweiler,2021,3659,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM11006: Sandweiler,2022,3712,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM11006: Sandweiler,2023,3751,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM12010: Nommern,2015,1313,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM12010: Nommern,2016,1331,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM12010: Nommern,2017,1393,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM12010: Nommern,2018,1381,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM12010: Nommern,2019,1421,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM12010: Nommern,2020,1401,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM12010: Nommern,2021,1439,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM12010: Nommern,2022,1448,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM12010: Nommern,2023,1437,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM02005: Ettelbruck,2015,8347,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM02005: Ettelbruck,2016,8541,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM02005: Ettelbruck,2017,8833,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM02005: Ettelbruck,2018,8735,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM02005: Ettelbruck,2019,8926,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM02005: Ettelbruck,2020,9148,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM02005: Ettelbruck,2021,9246,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM02005: Ettelbruck,2022,9362,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM02005: Ettelbruck,2023,9688,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM03007: Saeul,2015,710,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM03007: Saeul,2016,723,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM03007: Saeul,2017,780,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM03007: Saeul,2018,790,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM03007: Saeul,2019,844,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM03007: Saeul,2020,857,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM03007: Saeul,2021,874,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM03007: Saeul,2022,958,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM03007: Saeul,2023,983,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CT06: Canton Echternach,2015,17728,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CT06: Canton Echternach,2016,18007,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CT06: Canton Echternach,2017,18702,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CT06: Canton Echternach,2018,18899,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CT06: Canton Echternach,2019,18944,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CT06: Canton Echternach,2020,19189,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CT06: Canton Echternach,2021,19463,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CT06: Canton Echternach,2022,19716,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CT06: Canton Echternach,2023,20280,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM06004: Consdorf,2015,1883,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM06004: Consdorf,2016,1902,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM06004: Consdorf,2017,1953,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM06004: Consdorf,2018,2005,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM06004: Consdorf,2019,2024,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM06004: Consdorf,2020,2101,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM06004: Consdorf,2021,2123,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM06004: Consdorf,2022,2116,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM06004: Consdorf,2023,2117,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM11003: Hesperange,2015,14393,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM11003: Hesperange,2016,14650,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM11003: Hesperange,2017,15049,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM11003: Hesperange,2018,15246,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM11003: Hesperange,2019,15479,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM11003: Hesperange,2020,15584,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM11003: Hesperange,2021,15657,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM11003: Hesperange,2022,15883,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM11003: Hesperange,2023,16433,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM02002: Bourscheid,2015,1647,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM02002: Bourscheid,2016,1751,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM02002: Bourscheid,2017,1820,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM02002: Bourscheid,2018,1764,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM02002: Bourscheid,2019,1725,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM02002: Bourscheid,2020,1718,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM02002: Bourscheid,2021,1701,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM02002: Bourscheid,2022,1683,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM02002: Bourscheid,2023,1678,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM02003: Diekirch,2015,6728,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM02003: Diekirch,2016,6896,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM02003: Diekirch,2017,6472,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM02003: Diekirch,2018,6756,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM02003: Diekirch,2019,6988,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM02003: Diekirch,2020,7042,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM02003: Diekirch,2021,7047,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM02003: Diekirch,2022,7168,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM02003: Diekirch,2023,7295,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM02009: Schieren,2015,1847,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM02009: Schieren,2016,1902,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM02009: Schieren,2017,2004,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM02009: Schieren,2018,2036,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM02009: Schieren,2019,2024,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM02009: Schieren,2020,2039,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM02009: Schieren,2021,2073,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM02009: Schieren,2022,2111,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM02009: Schieren,2023,2149,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM03001: Beckerich,2015,2408,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM03001: Beckerich,2016,2437,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM03001: Beckerich,2017,2489,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM03001: Beckerich,2018,2518,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM03001: Beckerich,2019,2619,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM03001: Beckerich,2020,2708,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM03001: Beckerich,2021,2784,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM03001: Beckerich,2022,2812,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM03001: Beckerich,2023,2866,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM05007: Winseler,2015,1140,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM05007: Winseler,2016,1162,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM05007: Winseler,2017,1285,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM05007: Winseler,2018,1344,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM05007: Winseler,2019,1365,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM05007: Winseler,2020,1365,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM05007: Winseler,2021,1403,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM05007: Winseler,2022,1439,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM05007: Winseler,2023,1455,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM06005: Echternach,2015,5344,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM06005: Echternach,2016,5249,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM06005: Echternach,2017,5530,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM06005: Echternach,2018,5614,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM06005: Echternach,2019,5618,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM06005: Echternach,2020,5617,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM06005: Echternach,2021,5650,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM06005: Echternach,2022,5705,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM06005: Echternach,2023,5870,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM06006: Rosport - Mompach,2015,3383,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM06006: Rosport - Mompach,2016,3505,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM06006: Rosport - Mompach,2017,3596,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM06006: Rosport - Mompach,2018,3669,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM06006: Rosport - Mompach,2019,3644,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM06006: Rosport - Mompach,2020,3613,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM06006: Rosport - Mompach,2021,3631,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM06006: Rosport - Mompach,2022,3640,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM06006: Rosport - Mompach,2023,3704,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CT10: Canton Esch,2015,164604,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CT10: Canton Esch,2016,167955,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CT10: Canton Esch,2017,172687,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CT10: Canton Esch,2018,176820,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CT10: Canton Esch,2019,180275,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CT10: Canton Esch,2020,183364,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CT10: Canton Esch,2021,185184,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CT10: Canton Esch,2022,186468,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CT10: Canton Esch,2023,189540,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM10006: Kayl,2015,8121,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM10006: Kayl,2016,8247,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM10006: Kayl,2017,8982,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM10006: Kayl,2018,9098,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM10006: Kayl,2019,9315,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM10006: Kayl,2020,9506,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM10006: Kayl,2021,9668,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM10006: Kayl,2022,9721,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM10006: Kayl,2023,9865,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM01001: Clervaux,2015,4815,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM01001: Clervaux,2016,4847,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM01001: Clervaux,2017,5069,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM01001: Clervaux,2018,5228,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM01001: Clervaux,2019,5340,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM01001: Clervaux,2020,5463,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM01001: Clervaux,2021,5605,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM01001: Clervaux,2022,5772,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM01001: Clervaux,2023,6021,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM02001: Bettendorf,2015,2630,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM02001: Bettendorf,2016,2659,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM02001: Bettendorf,2017,2753,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM02001: Bettendorf,2018,2821,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM02001: Bettendorf,2019,2857,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM02001: Bettendorf,2020,2907,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM02001: Bettendorf,2021,2902,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM02001: Bettendorf,2022,2959,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM02001: Bettendorf,2023,3052,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM02006: Feulen,2015,1793,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM02006: Feulen,2016,1903,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM02006: Feulen,2017,2062,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM02006: Feulen,2018,2080,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM02006: Feulen,2019,2164,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM02006: Feulen,2020,2224,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM02006: Feulen,2021,2263,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM02006: Feulen,2022,2291,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM02006: Feulen,2023,2366,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM03003: Grosbous,2015,937,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM03003: Grosbous,2016,992,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM03003: Grosbous,2017,1026,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM03003: Grosbous,2018,1054,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM03003: Grosbous,2019,1089,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM03003: Grosbous,2020,1111,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM03003: Grosbous,2021,1112,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM03003: Grosbous,2022,1133,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM03003: Grosbous,2023,1134,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM03006: Redange-sur-Attert,2015,2613,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM03006: Redange-sur-Attert,2016,2609,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM03006: Redange-sur-Attert,2017,2795,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM03006: Redange-sur-Attert,2018,2824,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM03006: Redange-sur-Attert,2019,2843,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM03006: Redange-sur-Attert,2020,2905,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM03006: Redange-sur-Attert,2021,2910,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM03006: Redange-sur-Attert,2022,2990,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM03006: Redange-sur-Attert,2023,3059,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM05003: Goesdorf,2015,1433,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM05003: Goesdorf,2016,1466,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM05003: Goesdorf,2017,1543,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM05003: Goesdorf,2018,1514,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM05003: Goesdorf,2019,1542,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM05003: Goesdorf,2020,1568,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM05003: Goesdorf,2021,1595,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM05003: Goesdorf,2022,1632,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM05003: Goesdorf,2023,1664,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM08008: Waldbredimus,2015,942,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM08008: Waldbredimus,2016,929,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM08008: Waldbredimus,2017,1098,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM08008: Waldbredimus,2018,1116,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM08008: Waldbredimus,2019,1181,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM08008: Waldbredimus,2020,1240,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM08008: Waldbredimus,2021,1274,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM08008: Waldbredimus,2022,1265,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM08008: Waldbredimus,2023,1337,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM09006: Koerich,2015,2440,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM09006: Koerich,2016,2520,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM09006: Koerich,2017,2528,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM09006: Koerich,2018,2579,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM09006: Koerich,2019,2591,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM09006: Koerich,2020,2616,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM09006: Koerich,2021,2642,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM09006: Koerich,2022,2628,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM09006: Koerich,2023,2706,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM12005: Helperknapp,2015,3776,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM12005: Helperknapp,2016,3888,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM12005: Helperknapp,2017,4095,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM12005: Helperknapp,2018,4177,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM12005: Helperknapp,2019,4241,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM12005: Helperknapp,2020,4387,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM12005: Helperknapp,2021,4538,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM12005: Helperknapp,2022,4695,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM12005: Helperknapp,2023,4941,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM03005: Rambrouch,2015,4169,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM03005: Rambrouch,2016,4202,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM03005: Rambrouch,2017,4284,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM03005: Rambrouch,2018,4326,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM03005: Rambrouch,2019,4419,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM03005: Rambrouch,2020,4480,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM03005: Rambrouch,2021,4589,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM03005: Rambrouch,2022,4715,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM03005: Rambrouch,2023,4836,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM05002: Esch-sur-Sûre,2015,2477,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM05002: Esch-sur-Sûre,2016,2572,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM05002: Esch-sur-Sûre,2017,2640,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM05002: Esch-sur-Sûre,2018,2641,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM05002: Esch-sur-Sûre,2019,2715,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM05002: Esch-sur-Sûre,2020,2855,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM05002: Esch-sur-Sûre,2021,2982,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM05002: Esch-sur-Sûre,2022,3008,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM05002: Esch-sur-Sûre,2023,3129,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM06001: Beaufort,2015,2478,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM06001: Beaufort,2016,2545,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM06001: Beaufort,2017,2699,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM06001: Beaufort,2018,2816,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM06001: Beaufort,2019,2802,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM06001: Beaufort,2020,2885,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM06001: Beaufort,2021,2901,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM06001: Beaufort,2022,3019,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM06001: Beaufort,2023,3053,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM07003: Flaxweiler,2015,1890,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM07003: Flaxweiler,2016,1978,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM07003: Flaxweiler,2017,2060,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM07003: Flaxweiler,2018,2109,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM07003: Flaxweiler,2019,2145,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM07003: Flaxweiler,2020,2148,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM07003: Flaxweiler,2021,2158,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM07003: Flaxweiler,2022,2154,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM07003: Flaxweiler,2023,2193,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM09007: Kopstal,2015,3337,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM09007: Kopstal,2016,3448,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM09007: Kopstal,2017,3673,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM09007: Kopstal,2018,3839,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM09007: Kopstal,2019,3884,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM09007: Kopstal,2020,4038,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM09007: Kopstal,2021,4116,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM09007: Kopstal,2022,4185,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM09007: Kopstal,2023,4286,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM10005: Frisange,2015,4104,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM10005: Frisange,2016,4344,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM10005: Frisange,2017,4557,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM10005: Frisange,2018,4612,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM10005: Frisange,2019,4682,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM10005: Frisange,2020,4746,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM10005: Frisange,2021,4769,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM10005: Frisange,2022,4799,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM10005: Frisange,2023,4912,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM10010: Reckange-sur-Mess,2015,2297,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM10010: Reckange-sur-Mess,2016,2304,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM10010: Reckange-sur-Mess,2017,2397,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM10010: Reckange-sur-Mess,2018,2449,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM10010: Reckange-sur-Mess,2019,2511,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM10010: Reckange-sur-Mess,2020,2594,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM10010: Reckange-sur-Mess,2021,2634,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM10010: Reckange-sur-Mess,2022,2680,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM10010: Reckange-sur-Mess,2023,2734,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM12002: Colmar-Berg,2015,2108,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM12002: Colmar-Berg,2016,2115,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM12002: Colmar-Berg,2017,2175,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM12002: Colmar-Berg,2018,2218,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM12002: Colmar-Berg,2019,2187,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM12002: Colmar-Berg,2020,2192,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM12002: Colmar-Berg,2021,2238,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM12002: Colmar-Berg,2022,2269,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM12002: Colmar-Berg,2023,2336,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CT01: Canton Clervaux,2015,16822,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CT01: Canton Clervaux,2016,17126,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CT01: Canton Clervaux,2017,17631,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CT01: Canton Clervaux,2018,18081,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CT01: Canton Clervaux,2019,18436,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CT01: Canton Clervaux,2020,18936,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CT01: Canton Clervaux,2021,19382,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CT01: Canton Clervaux,2022,20016,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CT01: Canton Clervaux,2023,20687,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM07007: Mertert,2015,4286,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM07007: Mertert,2016,4364,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM07007: Mertert,2017,4530,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM07007: Mertert,2018,4517,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM07007: Mertert,2019,4563,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM07007: Mertert,2020,4635,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM07007: Mertert,2021,4703,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM07007: Mertert,2022,4764,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM07007: Mertert,2023,5117,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM11004: Luxembourg,2015,111287,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM11004: Luxembourg,2016,115227,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM11004: Luxembourg,2017,114303,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM11004: Luxembourg,2018,116323,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM11004: Luxembourg,2019,119215,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM11004: Luxembourg,2020,122273,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM11004: Luxembourg,2021,124509,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM11004: Luxembourg,2022,128494,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM11004: Luxembourg,2023,132780,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM12008: Lorentzweiler,2015,3723,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM12008: Lorentzweiler,2016,3798,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM12008: Lorentzweiler,2017,3896,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM12008: Lorentzweiler,2018,3986,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM12008: Lorentzweiler,2019,4083,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM12008: Lorentzweiler,2020,4246,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM12008: Lorentzweiler,2021,4348,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM12008: Lorentzweiler,2022,4441,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM12008: Lorentzweiler,2023,4521,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM02004: Erpeldange-sur-Sûre,2015,2409,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM02004: Erpeldange-sur-Sûre,2016,2396,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM02004: Erpeldange-sur-Sûre,2017,2392,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM02004: Erpeldange-sur-Sûre,2018,2339,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM02004: Erpeldange-sur-Sûre,2019,2406,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM02004: Erpeldange-sur-Sûre,2020,2482,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM02004: Erpeldange-sur-Sûre,2021,2452,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM02004: Erpeldange-sur-Sûre,2022,2436,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM02004: Erpeldange-sur-Sûre,2023,2429,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM03009: Vichten,2015,1088,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM03009: Vichten,2016,1186,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM03009: Vichten,2017,1246,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM03009: Vichten,2018,1274,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM03009: Vichten,2019,1309,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM03009: Vichten,2020,1313,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM03009: Vichten,2021,1360,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM03009: Vichten,2022,1375,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM03009: Vichten,2023,1425,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM07008: Wormeldange,2015,2654,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM07008: Wormeldange,2016,2685,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM07008: Wormeldange,2017,2784,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM07008: Wormeldange,2018,2836,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM07008: Wormeldange,2019,2921,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM07008: Wormeldange,2020,2970,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM07008: Wormeldange,2021,3054,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM07008: Wormeldange,2022,3065,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM07008: Wormeldange,2023,3171,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM09008: Mamer,2015,8463,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM09008: Mamer,2016,8695,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM09008: Mamer,2017,9185,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM09008: Mamer,2018,9528,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM09008: Mamer,2019,9730,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM09008: Mamer,2020,9913,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM09008: Mamer,2021,10218,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM09008: Mamer,2022,10473,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM09008: Mamer,2023,10643,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM11010: Walferdange,2015,7819,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM11010: Walferdange,2016,7818,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM11010: Walferdange,2017,8046,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM11010: Walferdange,2018,8169,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM11010: Walferdange,2019,8231,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM11010: Walferdange,2020,8424,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM11010: Walferdange,2021,8418,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM11010: Walferdange,2022,8552,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM11010: Walferdange,2023,8730,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM12006: Larochette,2015,2122,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM12006: Larochette,2016,2101,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM12006: Larochette,2017,2162,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM12006: Larochette,2018,2146,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM12006: Larochette,2019,2152,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM12006: Larochette,2020,2194,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM12006: Larochette,2021,2220,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM12006: Larochette,2022,2198,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM12006: Larochette,2023,2208,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM02008: Reisdorf,2015,1105,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM02008: Reisdorf,2016,1121,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM02008: Reisdorf,2017,1202,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM02008: Reisdorf,2018,1206,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM02008: Reisdorf,2019,1234,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM02008: Reisdorf,2020,1276,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM02008: Reisdorf,2021,1288,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM02008: Reisdorf,2022,1319,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM02008: Reisdorf,2023,1353,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM03008: Useldange,2015,1688,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM03008: Useldange,2016,1658,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM03008: Useldange,2017,1800,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM03008: Useldange,2018,1867,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM03008: Useldange,2019,1900,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM03008: Useldange,2020,1942,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM03008: Useldange,2021,1965,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM03008: Useldange,2022,2022,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM03008: Useldange,2023,2075,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CT05: Canton Wiltz,2015,15345,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CT05: Canton Wiltz,2016,15680,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CT05: Canton Wiltz,2017,16449,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CT05: Canton Wiltz,2018,16735,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CT05: Canton Wiltz,2019,17148,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CT05: Canton Wiltz,2020,17632,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CT05: Canton Wiltz,2021,18197,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CT05: Canton Wiltz,2022,18648,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CT05: Canton Wiltz,2023,19209,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM07001: Betzdorf,2015,3578,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM07001: Betzdorf,2016,3637,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM07001: Betzdorf,2017,3810,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM07001: Betzdorf,2018,3888,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM07001: Betzdorf,2019,4002,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM07001: Betzdorf,2020,4093,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM07001: Betzdorf,2021,4149,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM07001: Betzdorf,2022,4107,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM07001: Betzdorf,2023,4105,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM08003: Lenningen,2015,1805,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM08003: Lenningen,2016,1800,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM08003: Lenningen,2017,1886,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM08003: Lenningen,2018,1924,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM08003: Lenningen,2019,1941,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM08003: Lenningen,2020,2017,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM08003: Lenningen,2021,2071,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM08003: Lenningen,2022,2050,,,,,,0: Zéro
+LU1:DF_X021(1.0),A: Annuelle,CM08003: Lenningen,2023,2070,,,,,,0: Zéro
