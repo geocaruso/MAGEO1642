@@ -225,7 +225,6 @@ print(g2023_k10)
 dev.off()
 
 
-
 #More:
 #See https://spatialanalysis.github.io/handsonspatialdata/global-spatial-autocorrelation-2.html
 #And https://cran.r-project.org/web/packages/rgeoda/rgeoda.pdf
