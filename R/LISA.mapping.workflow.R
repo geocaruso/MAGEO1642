@@ -43,15 +43,9 @@ lutouch<-sf::st_touches(lux2169)
 luwithin5km<-st_is_within_distance(lux2169, dist=5000)
 
 # Both result in a sgbp object. Not a nb list as defined in spdep
-# Conversion function suggested by R Bivand:
-# https://cran.r-hub.io/web/packages/spdep/vignettes/nb_sf.html
-as.nb.sgbp <- function(x, ...) {
-  attrs <- attributes(x)
-  x <- lapply(x, function(i) { if(length(i) == 0L) 0L else i } )
-  attributes(x) <- attrs
-  class(x) <- "nb"
-  x
-}
+# Conversion function as.nb.sgbp() suggested by R Bivand:
+source("R/as.nb.sgbp.R")
+
 lutouchnb<-as.nb.sgbp(lutouch)
 luwithin5kmnb<-as.nb.sgbp(luwithin5km)
 
@@ -74,7 +68,7 @@ g5<-ggplot()+
 g5
 
 #Still not great since depends on what is drawn next and neighbour j of i is i of j
-#Let's randomized destinations coordinates
+#Let's randomized a little destinations coordinates
 m<-matrix(unlist(lutouchnb_lines$geometry),ncol=4,byrow = TRUE)
 mj<-data.frame(m)
 mj[,2]<-mj[,2]+runif(nrow(mj), -2000, 2000) #up to 2 km change of locations
@@ -140,9 +134,9 @@ zdf<-data.frame(dev_x,spatial_lag_dev_x)
 ggplot(data=zdf)+
   geom_point(aes(x=dev_x,y=spatial_lag_dev_x))+
   geom_hline(yintercept=0, linetype="dashed",
-             color = "blue", size=0.3)+
+             color = "blue", linewidth=0.3)+
   geom_vline(xintercept=0, linetype="dashed",
-             color = "blue", size=0.3)+
+             color = "blue", linewidth=0.3)+
   geom_abline(aes(intercept=morlm_itcpt,slope=morlm_i),col="red")+
   theme_bw()
 
@@ -173,49 +167,36 @@ LISA_x$signif_quad<-LISA_x$quad
 LISA_x$signif_quad[LISA_x[,"Pr(z != E(Ii))"]>signif]<-"n.s."  #zero to n.s lisa types
 
 # And mapping with our categorical mapping function
-     #### source("R/ggplot.themap.f.R") #in case #####
+source("R/ggplot.themap.f.R")
+# using std LISA colours
+source("R/LISA.colours.R")
+
 luxLISA<-cbind(lux2169,LISA_x)
-LISA.colours=c("n.s." = "white", "L.L." = "darkblue", "L.H."="lightblue", "H.L." = "pink", "H.H."="darkred") 
-glisa<-ggplot.themap.f(luxLISA,"signif_quad", cl.colours = LISA.colours)
+glisa<-ggplot.themap.f(luxLISA,"signif_quad", cl.colours = LISA.colours())
+glisa
 
 #Let's build a wrapping function to facilitate the process:
 # with our 2 arguments (x and mylistw set at Step 3 above) and the sf
-#
-localmoran.withquads<-function(sf, varname, w, signif=0.05){
-  svar<-sf::st_drop_geometry(sf)[,varname]
-  LISA_x<-as.data.frame(spdep::localmoran(svar, listw=w))
-  dev_x<-svar-mean(svar)
-  spatial_lag_dev_x<-spdep::lag.listw(w,dev_x)
-  LISA_x$quad<-factor("n.s", levels=c("n.s.","L.L.","L.H.","H.L.","H.H."))
-  LISA_x$quad[dev_x <0 & spatial_lag_dev_x<0] <- "L.L."
-  LISA_x$quad[dev_x <0 & spatial_lag_dev_x>0] <- "L.H."
-  LISA_x$quad[dev_x >0 & spatial_lag_dev_x<0] <- "H.L."
-  LISA_x$quad[dev_x >0 & spatial_lag_dev_x>0] <- "H.H."
-  LISA_x$signif_quad<-LISA_x$quad
-  LISA_x$signif_quad[LISA_x[,5]>signif]<-"n.s."  #zero to n.s lisa types
-  return(cbind(sf,LISA_x))
-} 
-
-LISA.colours=c("n.s." = "white", "L.L." = "darkblue", "L.H."="lightblue", "H.L." = "pink", "H.H."="darkred") 
+source("R/localmoran.withquads.R")
 
 LISA_D1821_k4<-localmoran.withquads(lux2169, "Density1821", luk4w, signif=0.05)
 g1821_k4<-ggplot.themap.f(LISA_D1821_k4,"signif_quad",
-                cl.colours = LISA.colours)
+                cl.colours = LISA.colours())
 g1821_k4
 
 LISA_D1821_k10<-localmoran.withquads(lux2169, "Density1821", luk10w, signif=0.05)
 g1821_k10<-ggplot.themap.f(LISA_D1821_k10,"signif_quad",
-                          cl.colours = LISA.colours)
+                          cl.colours = LISA.colours())
 g1821_k10
 
 LISA_D1821_w5<-localmoran.withquads(lux2169, "Density1821", luwithin5kmw, signif=0.05)
 g1821_w5<-ggplot.themap.f(LISA_D1821_k4,"signif_quad",
-                          cl.colours = LISA.colours)
+                          cl.colours = LISA.colours())
 g1821_w5
 
 LISA_D2023_k10<-localmoran.withquads(lux2169, "Density2023", luk10w, signif=0.05)
 g2023_k10<-ggplot.themap.f(LISA_D2023_k10,"signif_quad",
-                          cl.colours = LISA.colours)
+                          cl.colours = LISA.colours())
 g2023_k10
 
 #sink to a pdf

@@ -1,6 +1,7 @@
 #spatial.models.R
 
-#Demo spatial lag and error models with Luxembourg apt prices
+#Demo spatial lag and error models with Luxembourg apartment prices
+#See course for theory and data
 #
 #Read the data and check the coordinates system
 com<-sf::st_read("data/ext/DATA_COM.shp")
@@ -9,12 +10,10 @@ sf::st_crs(com) #https://epsg.io/2169
 #Descriptive stats
 #summary(com)
 hist(com$MPRICEM2)
-com101<-com[com$N>4,] #number of sales at least 4 per commune 
+com101<-com[com$N>4,] #number of sales: at least 4 per commune 
 centro101<-sf::st_centroid(com101)
 
 #Mapping the dependent variable:
-library(ggplot2)
-library(classInt)
 source("R/ggplot.themap.R")
 
 map<-ggplot.themap(com101,"MPRICEM2")
