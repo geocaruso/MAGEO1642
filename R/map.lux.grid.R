@@ -74,6 +74,7 @@ print(p3b)
 print(p4)
 dev.off()
 
+
 #TO BE FINISHED
 #Create a nested 100m grid
 #take one 1km cell (5 pairs of coordinates)
@@ -109,4 +110,4 @@ newsquares<-lapply(splitted1km,function(s){sq.polyg(minx=s$X[1],
                                 miny=s$Y[1])})
 
 # st_polygon and feed it a list of a matrix which has five rows and two columns by taking the elements from your data frame:
-
+#TO BE DONE
