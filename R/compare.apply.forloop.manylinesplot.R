@@ -28,3 +28,8 @@ lapply(split(df, df$country), function(x) {
 })
 )
 
+#Other example with regression by group
+df<-data.frame(grp=factor(rep(LETTERS[1:3], each = 20)),
+           x=runif(60))
+df$y<-2*df$x+runif(60)
+lapply(split(df,df$grp), function(s){lm(s$y~s$x)})

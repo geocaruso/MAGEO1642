@@ -33,25 +33,80 @@ p
 lukm_itsct<-sf::st_intersects(lukm_eea, lucom3035, sparse=FALSE)
 # Note this is a 7186 cells X 102 communes matrix (because of sparse=FALSE)
 # Cells with rowSums >0 are thus overlapping and to be kept
-lukm_eea[,"n_intscts"]<-rowSums(lukm_itsct) #number of intersectiong communes by each cell
+lukm_eea[,"n_intscts"]<-rowSums(lukm_itsct) #number of intersecting communes by each cell
+lukm_eea$n_intscts_f<-factor(lukm_eea$n_intscts)#number of intersecting communes by each cell as factor
 
 lukm = lukm_eea[lukm_eea$n_intscts>0,]
+#dim(lukm) # 2794 grid cells
 
 p2<-ggplot2::ggplot()+
-  ggplot2::geom_sf(data=lucom3035,fill="darkgrey",col='yellow',)+
+  ggplot2::geom_sf(data=lucom3035,fill="darkgrey",col='yellow')+
   ggplot2::geom_sf(data=lukm,fill=NA,col='darkgreen')+
   ggplot2::theme_bw()+
   ggplot2::ggtitle("EEA 1km grids intersecting Luxembourg")
 p2
 
 #Save as a gpkg for external use
-sf::st_write(lukm,"output/lukm3035.gpkg") #Warning to be checked
+sf::st_write(lukm,"output/lukm3035.gpkg", delete_dsn=TRUE) #Warning to be checked
 #Save as a gpkg for R use
 saveRDS(lukm,"output/lukm3035.RDS")
+
+
+#map number of communes per cell
+p3<-ggplot.themap.f(lukm,"n_intscts_f",main.title = "Number of communes intersecting each cell")
+p3b<-p3+ggplot2::geom_sf(data=lucom3035,fill=NA,col='white')
+p3b
+
+lucom3035[,"com_m2"]<-sf::st_area(lucom3035) #adds surface of commune
+luintsection<-sf::st_intersection(lukm,lucom3035) #intersects
+luintsection[,"itsct_m2"]<-sf::st_area(luintsection) #adds surface of intersected
+luintsection[,"share_of_com"]<-as.numeric(luintsection$itsct_m2/luintsection$com_m2) #surface share of commune
+luintsection[,"share_of_cell"]<-as.numeric(luintsection$itsct_m2/1000000) #surface share of cell
+
+p4<-ggplot.themap(luintsection,"share_of_com",n=8, n.digits = 4,
+              cl.colours = viridis::inferno(8))
+p4
 
 pdf("output/Lux_grids_map.pdf")
 print(p)
 print(p2)
+print(p3b)
+print(p4)
 dev.off()
 
+#TO BE FINISHED
+#Create a nested 100m grid
+#take one 1km cell (5 pairs of coordinates)
+kmxy<-sf::st_coordinates(lukm)[1:5,]
+kmxy[1] #is min x
+kmxy[6] #is min y
+#from min x and min y create 100 new starting coordinates pair
+sq.polyg<-function(minx,miny){
+  xs<-seq(from=minx, to=minx+900, by=100)
+  ys<-seq(from=miny, to=miny+900, by=100)
+  df<-data.frame(startx<-rep(xs,10),starty<-rep(ys,10))
+  #move 100m one way then the other to complete a square
+  # fifth coordinates goes back to start 
+  df$secondx<-startx
+  df$secondy<-starty+100
+  df$thirdx<-startx+100
+  df$thirdy<-starty+100
+  df$fourthx<-startx+100
+  df$fourthy<-starty
+  df$endx<-startx
+  df$endy<-starty
+  #df has 100 rows (new cells) and 10 columns (the coordinates of each cell
+  # as a square polygon)
+  return(df)
+  }
+sq.polyg(minx =kmxy[1],kmxy[6])
+
+#Apply the above for each 1km cell, which can be identified uniquely from
+# "L2" in sf::st_coordinates(lukm)
+dfcoords1km<-data.frame(sf::st_coordinates(lukm))
+splitted1km<-split(dfcoords1km,dfcoords1km$L2)
+newsquares<-lapply(splitted1km,function(s){sq.polyg(minx=s$X[1],
+                                miny=s$Y[1])})
+
+# st_polygon and feed it a list of a matrix which has five rows and two columns by taking the elements from your data frame:
 
