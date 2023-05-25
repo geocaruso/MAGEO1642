@@ -1,5 +1,6 @@
 #Nest.lux.grid.R
 #
+#
 #Creates a 100m (or any res multiple of 1000m) grid within the 1km grid
 # (as defined by the EU)
 # Case of Luxembourg
