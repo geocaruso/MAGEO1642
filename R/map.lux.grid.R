@@ -81,7 +81,8 @@ p4<-ggplot.themap(luintsection,"share_of_com",n=8, n.digits = 4,
               cl.colours = viridis::inferno(8))
 p4
 
-##3.2. Keep shares in wide and unique corresp to build corresp table
+##3.2. Wide----
+# Keep shares in wide and unique corresp to build corresp table
 wide_cell_LAU2_m2<-reshape2::dcast(sf::st_drop_geometry(luintsection),CELLCODE~LAU2,value.var = "itsct_m2")
 wide_cell_LAU2_m2[is.na(wide_cell_LAU2_m2)] <- 0 #could use na rm later but won't work with col.max
 rowSums(wide_cell_LAU2_m2[,2:103]) #to check all rows sum to 1
@@ -89,7 +90,8 @@ rowSums(wide_cell_LAU2_m2[,2:103]) #to check all rows sum to 1
 colSums(wide_cell_LAU2_m2[,2:103]) #to check sums are surface of communes
  #OK see lucom3035$com_m2 (re-ordered)
 
-##3.3. Select max LAU2 and add as a column plus cells contribution (share)
+##3.3. Select max LAU2----
+# and add as a column, plus cells contribution (share)
 maxm2LAU2<-names(wide_cell_LAU2_m2)[max.col(wide_cell_LAU2_m2[,2:103])+1]
 wide_cell_LAU2_m2$maxm2LAU2<-maxm2LAU2 
 #with frequency of LAU2s across cells compute 1/freq to get contribution share
@@ -99,9 +101,12 @@ Each_share_of_LAU2<-data.frame(1/table(wide_cell_LAU2_m2$maxm2LAU2))
 names(Each_share_of_LAU2)<-c("LAU2","sh_of_LAU2")
 #Merge LAU2 shares to cells
 m_w_s<-merge(wide_cell_LAU2_m2,Each_share_of_LAU2,by.x="maxm2LAU2",by.y="LAU2",)
+m_w_s_com<-merge(m_w_s,sf::st_drop_geometry(lucom3035[,c("COMMUNE","LAU2")]),by.x="maxm2LAU2", by.y="LAU2")
 
-#rearrange (CELLCODE then maxLAU2 and share before tabulate area matrix)
-Grid1km_LAU2_m2_1<-m_w_s[,c(2,1,105,3:104)]
+##3.4. Save corresponding table and sd----
+#rearrange (CELLCODE then maxLAU2 and commune name,
+# then shares and then tabulate area matrix)
+Grid1km_LAU2_m2_1<-m_w_s_com[,c(2,1,106,105,3:104)]
 names(Grid1km_LAU2_m2_1)[4:105]<-paste0("m2_",names(Grid1km_LAU2_m2_1)[4:105])
 
 #reorder with lukm order
@@ -109,14 +114,17 @@ Grid1km_LAU2_m2<-Grid1km_LAU2_m2_1[match(lukm$CELLCODE,Grid1km_LAU2_m2_1$CELLCOD
 write.csv(Grid1km_LAU2_m2,"output/Grid1km_LAU2_m2.csv")
 
 lukm_Grid1km_LAU2_m2_sf<-merge(lukm,Grid1km_LAU2_m2)
-sf::st_write(lukm_Grid1km_LAU2_m2_sf,"output/lukm_Grid1km_LAU2_m2_sf.gpkg")
+sf::st_write(lukm_Grid1km_LAU2_m2_sf,"output/lukm_Grid1km_LAU2_m2.gpkg")
+
+pcom<-ggplot()+geom_sf(data=lukm_Grid1km_LAU2_m2_sf,fill=maxm2LAU2)
 
 #add communal names
 
-##4. Printing
+##4. Printing----
 pdf("output/Lux_grids_map.pdf")
 print(p)
 print(p2)
 print(p3b)
 print(p4)
+print(pcom)
 dev.off()
