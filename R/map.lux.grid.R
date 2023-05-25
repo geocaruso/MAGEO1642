@@ -111,6 +111,8 @@ write.csv(Grid1km_LAU2_m2,"output/Grid1km_LAU2_m2.csv")
 lukm_Grid1km_LAU2_m2_sf<-merge(lukm,Grid1km_LAU2_m2)
 sf::st_write(lukm_Grid1km_LAU2_m2_sf,"output/lukm_Grid1km_LAU2_m2_sf.gpkg")
 
+#add communal names
+
 ##4. Printing
 pdf("output/Lux_grids_map.pdf")
 print(p)
