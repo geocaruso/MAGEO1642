@@ -9,8 +9,11 @@
 ##!!! BEWARE THIS LINK HAS BEEN UPDATED TO LAST OFFICIAL RELEASE HENCE 100 COMMUNES!
   url<-"https://data.public.lu/fr/datasets/r/16103fa4-7ff1-486a-88bc-5018353957ea"
 lux102sf<-sf::st_read(url) #102 because it is the latest vintage with 102 communes, crs is 4326
+lux100sf<-sf::st_read(url) #100 because it is the latest vintage with 102 communes, crs is 4326
+
 #save as geopackage for future use
 sf::st_write(lux102sf,"data/Communes102_4326.gpkg", delete_dsn = TRUE)
+sf::st_write(lux100sf,"data/Communes100_4326.gpkg", delete_dsn = TRUE)
 
 ## Attributes----
 # Download population density since 1821! from STATEC
