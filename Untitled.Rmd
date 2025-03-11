@@ -1,0 +1,56 @@
+---
+title: "MAGEO1642_2024"
+author: "GCLFRK"
+date: "2024-04-08"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# MAGEO 16 42 - Experimenting with mapping with R
+## Important Sources
+
+There are 4 main information sources for this course:
+Applied spatial analysis with R or now: https://r-spatial.org/book/
+
+geocomputaion with R <https://r.geocompx.org/>,
+sf package vignette <https://r-spatial.github.io/sf/articles/sf1.html>
+and the R Terra vignette <https://rspatial.org/>
+
+# Package sf
+
+A sf object is a data frame that includes a specific column for the geometry.
+Since geometries are not a single value but a set of coordinates and a type (or more), i.e. lines, points, polygons, their specific column is actually a list.
+
+Example with the data provided within the package
+
+
+```{r nc sf}
+library(sf)
+nc<-st_read(system.file("shape/nc.shp", package="sf"))
+nc
+```
+
+
+Like any dataframe, you can easily compute new columns. Example, the shape index perimeter to area
+```{r nc calculate field}
+
+nc$PARATIO<-nc$PERIMETER/nc$AREA
+plot(density(nc$PARATIO))
+```
+
+
+```{r nc plot}
+plot(nc)
+plot(nc[,"PARATIO"])
+plot(nc[nc$BIR74>2000,"PARATIO"])
+plot(nc[,16])
+plot(nc$PARATIO)
+```
+
+## Create your sf
+
+
+

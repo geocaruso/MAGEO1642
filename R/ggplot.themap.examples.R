@@ -5,6 +5,9 @@
 #function
 source("R/ggplot.themap.R")
 
+#libraries
+library(ggplot2)
+
 #data
 lux102sf_density1821<-readRDS("data/lux102sf_density1821.rds")
 
@@ -15,7 +18,9 @@ g<-ggplot()+
 g
 
 p<-ggplot.themap(lux102sf_density1821,"Density1821")
+#p<-ggplot.themap(lux102sf_density1821,"Density1821",style = "jenks",n=7)
 p
+
 
 # Improved map titles
 myvar<-"Density1821"

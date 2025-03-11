@@ -5,7 +5,9 @@
 ## Polygons----
 # Download and convert to sf communal polygon vector data (geojson) from geoportail of Luxembourg:
 # source: https://data.public.lu/fr/datasets/limites-administratives-du-grand-duche-de-luxembourg/
-url<-"https://data.public.lu/fr/datasets/r/16103fa4-7ff1-486a-88bc-5018353957ea"
+
+##!!! BEWARE THIS LINK HAS BEEN UPDATED TO LAST OFFICIAL RELEASE HENCE 100 COMMUNES!
+  url<-"https://data.public.lu/fr/datasets/r/16103fa4-7ff1-486a-88bc-5018353957ea"
 lux102sf<-sf::st_read(url) #102 because it is the latest vintage with 102 communes, crs is 4326
 #save as geopackage for future use
 sf::st_write(lux102sf,"data/Communes102_4326.gpkg", delete_dsn = TRUE)

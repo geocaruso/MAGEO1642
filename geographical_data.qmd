@@ -1,0 +1,339 @@
+---
+title: "Map with Geographical Data using Simple Features"
+format: html
+editor: visual
+---
+
+### Simple feature for R
+
+Main source of the content : <https://r-spatial.github.io/sf/articles/sf1.html>
+
+The simple feature, often named as an **sf** object can represented the real world in computers, with emphasis on the spatial geometry of these object. The *feature* can be a building, a tree or a land cover (city, forest...). Features have a *geometry* describing where on Earth the feature is located, and they have attributes, which describe other properties (area, date, value). As GIS software, there is different type of geometry ; point, line, polygon or multipoint, multiline, multipolygon.
+
+![](images/clipboard-569570838.png){width="366"}
+
+An **sf** object is a dataframe that includes a specific column **sfc** for the GEOMETRYCOLLECTION. Single geometries are not a single value but a set of point coordinate in dimensional space. All points in a geometry have the same dimensionality.
+
+-   two-dimensional points refer to x and y, easting and northing, or longitude and latitude
+-   all **sf** object contains a coordinate reference system (LUREF - EPSG:2169, WGS84 - World Geodetic System 1984 - EPSG:4326)\*
+-   website to check crs : <https://epsg.io/>
+
+You know now that an sf object is basically a dataframe with a geometry type. You can use directly the attribut as we saw on the first semester.
+
+-   `sf`, the table (`data.frame`) with feature attributes and feature geometries, which contains
+
+-   `sfc`, the list-column with the geometries for each feature (record), which is composed of
+
+-   `sfg`, the feature geometry of an individual simple feature
+
+![](images/clipboard-1507192105.png)
+
+The data come from the **sf** package, so, you can directly load it in the **sf** package. All the function begin by `st_`
+
+```{r, message = FALSE, warning = FALSE}
+
+library(sf)
+```
+
+How to open a spatial data ?
+
+```{r, message = FALSE, warning = FALSE}
+
+UA_lu <- st_read("C:/Users/leandre.fabri/Documents/R/MAGEO_16.42_2025/data/LU001L1_LUXEMBOURG_UA2018_v013.gpkg")
+
+# plot(UA_lu) #in this case, it take the first 10 variables 
+plot(UA_lu$geom) # in this case, it take only the geometry
+plot(UA_lu$Pop2018) # in this case, it take only the geometry
+
+
+centroid_UA_lu <- st_centroid(UA_lu)
+
+```
+
+### Merge a data frame with a sf geometry
+
+We are going to use the population data of Luxembourg : <https://lustat.statec.lu/>
+
+To represent the population per commune with a map, we need to merge the population data with an sf object. It can be for example geopackage or shapefile of the communes from Luxembourg. We just need to be sure that a code variable is available with the same code between the 2 objects to do the merge.
+
+```{r, message = FALSE, warning = FALSE}
+
+com_lux <- st_read("C:/Users/leandre.fabri/Documents/R/MAGEO_16.42_2025/data/lux102_4326.gpkg")
+
+pop_lux <- read.csv("C:/Users/leandre.fabri/Documents/R/MAGEO_16.42_2025/data/LU1_DF_X021_1.0_A.csv")
+
+names(pop_lux)[3] <- "specif"
+
+# keep the code of the specification
+pop_lux$CMCODE <- substr(pop_lux$specif, 1, 7)
+
+# merge the 2 objects
+com_pop <- merge(com_lux, pop_lux, by = "CMCODE")
+
+# in case it was not the same x and y
+com_pop <- merge(com_lux, pop_lux, by.x = "CMCODE", by.y = "CMCODE")
+
+# if you want you can clean the data 
+com_pop <- com_pop[, -c(7, 8, 11, 12, 13, 14, 15, 16)]
+names(com_pop)[7] <- "time"
+
+# subset of the year 
+com_pop2023 <- com_pop[com_pop$time == 2023,]
+
+```
+
+Now, we have a clean sf object to visualize the observational data of the population across the commune of Luxembourg. ggplot2 package is perfect to map with the **geom_sf**. Before plotting the map, verification is necessary to be sure that the coordinate reference system is the good one.
+
+```{r, message = FALSE, warning = FALSE}
+library(ggplot2)
+
+# what is the crs of the current sf object
+st_crs(com_pop2023)
+
+# change with the crs of Luxembourg
+com_pop2023 <- st_transform(com_pop2023, crs = 2169)
+
+# pop density
+
+ggplot() +
+  geom_sf(data = com_pop2023, aes(fill = OBS_VALUE))
+
+```
+
+And same as the graphics of the first semester, you can put more fancy to make a beautiful map !
+
+```{r, message = FALSE, warning = FALSE}
+
+# to use a continuous colors (low to high)
+ggplot() +
+  geom_sf(data = com_pop2023, aes(fill = OBS_VALUE), color = "black") +
+  labs(title = "Population per commune in Luxembourg - 2023", fill = "Population [inhabitants]", caption = "Author : Léandre Fabri, Source : STATEC") + 
+  scale_fill_gradient(low = "white", high = "red") +
+  theme_bw() +
+  theme(plot.title = element_text(size = 9, face = "bold"),
+        plot.caption = element_text(size = 7, face = "italic"),
+        legend.key.size = unit(0.5, "cm"),
+        legend.text = element_text(size = 8),   
+        legend.title = element_text(size = 10))
+
+# to create a continuous palet of colors
+cl.colours1 = c("#fff5f0", "#fcbea5", "#fb7050", "#d32020", "#67000d")
+
+ggplot() +
+  geom_sf(data = com_pop2023, aes(fill = OBS_VALUE), color = "black") +
+  labs(title = "Population per commune in Luxembourg - 2023", fill = "Population [inhabitants]", caption = "Author : Léandre Fabri, Source : STATEC") + 
+  scale_fill_gradientn(colors = cl.colours1, 
+                      limits = c(min(com_pop2023$OBS_VALUE), max(com_pop2023$OBS_VALUE))) +
+  theme_bw() +
+  theme(plot.title = element_text(size = 9, face = "bold"),
+        plot.caption = element_text(size = 7, face = "italic"),
+        legend.key.size = unit(0.5, "cm"),
+        legend.text = element_text(size = 8),   
+        legend.title = element_text(size = 10))
+
+# maps by centroid
+
+centroid_com_pop2023 <- st_centroid(com_pop2023)
+
+ggplot() +
+  geom_sf(data = com_pop2023, fill = "white", color = "black") +
+  geom_sf(data = centroid_com_pop2023, aes(size = OBS_VALUE, color = OBS_VALUE)) +
+  labs(title = "Population per commune in Luxembourg - 2023", size = "Population [inhabitants]", color = "Population [inhabitants]", caption = "Author : Léandre Fabri, Source : STATEC") + 
+  scale_color_gradientn(colors = cl.colours1, 
+                      limits = c(min(com_pop2023$OBS_VALUE), max(com_pop2023$OBS_VALUE))) +
+  theme_bw() +
+  theme(plot.title = element_text(size = 9, face = "bold"),
+        plot.caption = element_text(size = 7, face = "italic"),
+        legend.key.size = unit(0.5, "cm"),
+        legend.text = element_text(size = 8),   
+        legend.title = element_text(size = 10))
+```
+
+If you want to create a categorical value of a numerical variable to create different groups. We use the **classInt** package with the function classify_intervals().
+
+```{r, message = FALSE, warning = FALSE}
+
+# you can also put the quantile for example
+com_pop2023$mygroups <- factor(classInt::classify_intervals(round(as.numeric(com_pop2023$OBS_VALUE), 2), 5, "jenks", factor = TRUE))
+
+
+ggplot() +
+  geom_sf(data = com_pop2023, aes(fill = mygroups), color = "black") +
+  labs(title = "Population per commune in Luxembourg - 2023", fill = "Population [inhabitants]", caption = "Author : Léandre Fabri, Source : STATEC") + 
+  scale_fill_manual(values =  cl.colours1) +
+  theme_bw()  +
+  theme(plot.title = element_text(size = 9, face = "bold"),
+        plot.caption = element_text(size = 7, face = "italic"),
+        legend.key.size = unit(0.5, "cm"),
+        legend.text = element_text(size = 8),   
+        legend.title = element_text(size = 10))
+
+
+
+
+# with the brewer palets 
+ggplot() +
+  geom_sf(data = com_pop2023, aes(fill = mygroups), color = "black") +
+  labs(title = "Population per commune in Luxembourg - 2023", fill = "Population [inhabitants]", caption = "Author : Léandre Fabri, Source : STATEC") + 
+  scale_fill_brewer(palette = "YlOrRd") +
+  theme_bw()  +
+  theme(plot.title = element_text(size = 9, face = "bold"),
+        plot.caption = element_text(size = 7, face = "italic"),
+        legend.key.size = unit(0.5, "cm"),
+        legend.text = element_text(size = 8),   
+        legend.title = element_text(size = 10))
+
+```
+
+### Different way to map
+
+#### tmap
+
+Another way to map is to use the **`tmap`** package. Within this package, there is 2 types of mode :
+
+-   view
+
+-   plot
+
+```{r, message = FALSE, warning = FALSE}
+
+library(tmap)
+
+tmap_mode("plot")
+
+tm_shape(com_pop2023) + 
+    tm_polygons("OBS_VALUE", palette = c("#fff5f0", "#d32020", "#67000d"), border.col = "black") +
+    tm_scale_bar(position = c(0.0001, 0.0001)) + 
+    tm_compass(position = c(0.01, 0.89)) +
+      # title configuration
+    tm_layout(title = paste("Population per commune in Luxembourg - 2023"),
+              title.size = 0.6,  # Taille du titre
+              title.fontface = "bold",  # Style du titre
+              title.position = c(0.3, 0.98),
+              legend.position = c("right", "top"),
+              legend.show = TRUE)
+```
+
+#### map_view
+
+Another way to have the view mode is to use the `mapview` package.
+
+```{r}
+
+library(mapview)
+
+mapview(com_pop2023, zcol = "OBS_VALUE", legend = TRUE, col.region = cl.colours1)
+```
+
+#### mapsf
+
+```{r, message = FALSE, warning = FALSE}
+
+library(mapsf)
+
+# set a cartographic theme
+mf_theme("candy")
+
+# display the map as a choropleth map
+mf_map(x = com_pop2023, var = "OBS_VALUE", type = "choro",
+       breaks = "jenks", nbreaks = 5, pal = cl.colours1,
+       leg_title = "Population [inhabitants]",
+       leg_val_cex = .8, leg_val_rnd = 1, leg_pos = "topleft")
+
+# Layout elements
+mf_arrow("topright")
+mf_credits(
+  txt = paste("Author : Léandre Fabri, Source : STATEC"))
+mf_title("Population per commune in Luxembourg - 2023")
+mf_scale(5)
+```
+
+### Atlas per cantons
+
+A practical thing when we are able to map with a code. It is that we can automatize a loop to create several maps, typically, an Atlas of different regions. Here the example of a zoom of the population per cantons. For that, we need to construct an object list who contains each canton.
+
+```{r, message = FALSE, warning = FALSE}
+
+# create the list
+canton_list <- split(com_pop2023, com_pop2023$CANTON)
+
+sf <- canton_list[[1]]
+
+# run the list for each canton
+atlas <- lapply(canton_list[1:12], function(sf){
+  
+  canton_name <- st_drop_geometry(sf)[3, "CANTON"]
+  
+  g <- ggplot() +
+  geom_sf(data = sf, aes(fill = mygroups), color = "black") +
+  labs(title = paste("Population per commune in", canton_name, " - 2023"), fill = "Population [inhabitants]", caption = "Author : Léandre Fabri, Source : STATEC") + 
+  scale_fill_manual(values =  cl.colours1) +
+  theme_bw()  +
+  theme(plot.title = element_text(size = 9, face = "bold"),
+        plot.caption = element_text(size = 7, face = "italic"),
+        legend.key.size = unit(0.5, "cm"),
+        legend.text = element_text(size = 8),   
+        legend.title = element_text(size = 10))
+  
+ 
+  # directory output
+  pdf(paste0("C:/Users/leandre.fabri/Documents/R/MAGEO_16.42_2025/output/atlas_pop_canton/Pop_", canton_name,"_2023.pdf"))
+  print(g)
+  dev.off()
+  
+  message(paste(canton_name))
+  
+  return(g)
+  
+})
+
+atlas
+
+
+# to print with all maps
+  pdf(paste0("C:/Users/leandre.fabri/Documents/R/MAGEO_16.42_2025/output/atlas_pop_canton/Pop_per_canton_2023.pdf"))
+  atlas
+  dev.off()
+```
+
+## Exercise
+
+1 . Take the Urban Atlas geopackage for Luxembourg and try to find out how to do a land cover/land use map of the forest, vegetated, urban, industrial land.
+
+Here you have an example of a code to reclassify like you want the initial classes of the urban atlas.
+
+```{r ex, message = FALSE, warning = FALSE}
+
+library(dplyr)
+
+  UA_lu$classif <- as.factor(case_when((UA_lu$code_2018 == "11100" ~ "residential"),
+                                   (UA_lu$code_2018 == "11210" ~ "residential"),
+                                   (UA_lu$code_2018 == "11220" ~ "residential"),
+                                   (UA_lu$code_2018 == "11230" ~ "residential"),
+                                   (UA_lu$code_2018 == "11240" ~ "residential"),
+                                   (UA_lu$code_2018 == "11300" ~ "residential"),
+                                   (UA_lu$code_2018 == "12100" ~ "industrial, public zone"),
+                                   (UA_lu$code_2018 == "12300" ~ "other"),
+                                   (UA_lu$code_2018 == "12400" ~ "other"),
+                                   (UA_lu$code_2018 == "12210" ~ "road"),
+                                   (UA_lu$code_2018 == "12220" ~ "road"),
+                                   (UA_lu$code_2018 == "12230" ~ "rail"),
+                                   (UA_lu$code_2018 == "13100" ~ "other"),
+                                   (UA_lu$code_2018 == "13300" ~ "other"),
+                                   (UA_lu$code_2018 == "13400" ~ "other"),
+                                   (UA_lu$code_2018 == "14200" ~ "green urban"),
+                                   (UA_lu$code_2018 == "14100" ~ "green urban"),
+                                   (UA_lu$code_2018 == "21000" ~ "farming"),
+                                   (UA_lu$code_2018 == "22000" ~ "farming"),
+                                   (UA_lu$code_2018 == "23000" ~ "farming"),
+                                   (UA_lu$code_2018 == "24000" ~ "farming"),
+                                   (UA_lu$code_2018 == "25000" ~ "farming"),
+                                   (UA_lu$code_2018 == "31000" ~ "forest"),
+                                   (UA_lu$code_2018 == "32000" ~ "vegetated"),
+                                   (UA_lu$code_2018 == "33000" ~ "vegetated"),
+                                   (UA_lu$code_2018 == "40000" ~ "vegetated"),
+                                   (UA_lu$code_2018 == "50000" ~ "water"),
+                                   TRUE ~ "NA"))
+```
+
+2.  Find data on the STATEC website and merge it to create a map representing a variable.

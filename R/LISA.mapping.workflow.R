@@ -11,7 +11,7 @@
 # Data
 lux102sf_density1821<-readRDS("data/lux102sf_density1821.rds")
 
-#Transform to natioanl reference system rather than WGS84
+#Transform to national reference system rather than WGS84
 #see LURES (LUREF) https://coordinateconverter.geoportail.lu/
 #https://epsg.io/2169
 lux2169<-sf::st_transform(lux102sf_density1821,crs = 2169)
@@ -26,11 +26,12 @@ luk10<-spdep::knearneigh(lu, k=10)
 luk4nb<-spdep::knn2nb(luk4)
 luk10nb<-spdep::knn2nb(luk10)
 ## ggplotting neighbours
-luk4nb_lines<-spdep::nb2lines(luk4nb, coords=st_geometry(lu), as_sf=TRUE)
-luk10nb_lines<-spdep::nb2lines(luk10nb, coords=st_geometry(lu), as_sf=TRUE)
+luk4nb_lines<-spdep::nb2lines(luk4nb, coords=sf::st_geometry(lu), as_sf=TRUE)
+luk10nb_lines<-spdep::nb2lines(luk10nb, coords=sf::st_geometry(lu), as_sf=TRUE)
 
+library(ggplot2)
 gk<-ggplot()+
-  geom_sf(data=lux2169, fill="goldenrod", col="white")+
+  geom_sf(data=lux2169, fill="white", col="grey90")+
   geom_sf(data=luk10nb_lines)+
   geom_sf(data=luk4nb_lines, color="cyan")+
   theme_bw()
@@ -40,7 +41,7 @@ gk
 # contiguity
 lutouch<-sf::st_touches(lux2169)
 # within distance
-luwithin5km<-st_is_within_distance(lux2169, dist=5000)
+luwithin5km<-sf::st_is_within_distance(lux2169, dist=5000)
 
 # Both result in a sgbp object. Not a nb list as defined in spdep
 # Conversion function as.nb.sgbp() suggested by R Bivand:
@@ -50,8 +51,8 @@ lutouchnb<-as.nb.sgbp(lutouch)
 luwithin5kmnb<-as.nb.sgbp(luwithin5km)
 
 ## ggplotting neighbours
-lutouchnb_lines<-spdep::nb2lines(lutouchnb, coords=st_geometry(lu), as_sf=TRUE)
-luwithin5kmnb_lines<-spdep::nb2lines(luwithin5kmnb, coords=st_geometry(lu), as_sf=TRUE)
+lutouchnb_lines<-spdep::nb2lines(lutouchnb, coords=sf::st_geometry(lu), as_sf=TRUE)
+luwithin5kmnb_lines<-spdep::nb2lines(luwithin5kmnb, coords=sf::st_geometry(lu), as_sf=TRUE)
 #Each separately and with colours for each origin otherwise not quite informative
 gt<-ggplot()+
   geom_sf(data=lux2169, fill="black", col=NA)+
@@ -93,7 +94,7 @@ print(g5)
 dev.off()
 
 
-## 2. spatial weights----
+# 2. spatial weights----
 #row-standardised weight matrices
 luk4w<-spdep::nb2listw(luk4nb,style="W") 
 luk10w<-spdep::nb2listw(luk10nb,style="W") 
@@ -101,14 +102,14 @@ lutouchw<-spdep::nb2listw(lutouchnb,style="W")
 luwithin5kmw<-spdep::nb2listw(luwithin5kmnb,style="W")
 summary(lutouchw)
 
-## 3. Moran's I----
+# 3. Moran's I----
 #Pick up a variable and a weight matrix
-luDensity<-st_drop_geometry(lux2169) #subsetting variable would otherwise keep geometry
+luDensity<-sf::st_drop_geometry(lux2169) #subsetting variable would otherwise keep geometry
 x<-luDensity[,"Density2023"]
 mylistw<-luk4w
 moran_i<- spdep::moran.test(x, listw=mylistw)
 
-## 4. Moran's scatterplot----
+# 4. Moran's scatterplot----
 spdep::moran.plot(x, listw=mylistw)
 
 #To build this with ggplot, remind that Moran's I is the slope of regressing
@@ -141,7 +142,7 @@ ggplot(data=zdf)+
   theme_bw()
 
 
-## 5. LISA ----
+# 5. LISA ----
 mIlocal_x<- spdep::localmoran(x, listw=mylistw)
 LISA_x<-as.data.frame(mIlocal_x)
 head(LISA_x)
@@ -162,7 +163,7 @@ LISA_x$quad[dev_x >0 & spatial_lag_dev_x<0] <- "H.L."
 LISA_x$quad[dev_x >0 & spatial_lag_dev_x>0] <- "H.H."
 
 # statistical significance level
-signif <- 0.05
+signif <- 0.5
 LISA_x$signif_quad<-LISA_x$quad
 LISA_x$signif_quad[LISA_x[,"Pr(z != E(Ii))"]>signif]<-"n.s."  #zero to n.s lisa types
 
