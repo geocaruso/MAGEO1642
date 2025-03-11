@@ -12,6 +12,7 @@ Psf<-sf::st_as_sf(Pdf, wkt = "geom" ) #or wkt=1 since column number of geometry
 Psf$id<-LETTERS[1:nrow(Psf)]
 plot(Psf)
 
+
 ### LINES AND MULTILINES----
 L1<-"LINESTRING (0 2, 1 1, 4 1, 5 2)"
 L2<-"LINESTRING (2.5 3, 2.5 4)"
@@ -20,15 +21,18 @@ Ldf<-data.frame(geom=rbind(L1,L2,L3))
 Lsf<-sf::st_as_sf(Ldf, wkt = "geom" )
 Lsf$id<-LETTERS[1:nrow(Lsf)]
 plot(Lsf)
+ggplot()+geom_sf(data=Psf, aes(col=id))+geom_sf(data=Lsf, aes(col=id))
 
 ### POLYGONS----
 POL1<-"POLYGON ((0 0, 0 7, 7 7, 7 0, 0 0))"
 POL2<-"POLYGON ((0 7, 0 8, 7 8, 7 7, 0 7))"
 POL3<-"POLYGON ((0 8, 3 12, 7 8, 0 8),(2 9, 3 10, 4 9, 2 9 ))" #with a hole
-POLdf<-data.frame(geom=rbind(POL1,POL2,POL3))
+POL4<-"MULTIPOLYGON (((0 8, 3 12, 7 8, 0 8)),((2 9, 3 10, 4 15, 2 9 )))"
+POLdf<-data.frame(geom=rbind(POL1,POL2,POL3,POL4))
 POLsf<-sf::st_as_sf(POLdf, wkt = "geom" ) 
 POLsf$id<-LETTERS[1:nrow(POLsf)]
 plot(POLsf)
+ggplot()+geom_sf(data=POLsf, aes(fill=id))
 
 ### Mix of geometries!----
 PLsf<-rbind(Lsf,Psf) 
@@ -52,18 +56,18 @@ poly_sf<-sf::st_as_sf(sf::st_sfc(sf::st_polygon(list(outer))))
 ## The Classroom----
 Tatiana<-    "POLYGON ((0 0, 0 1, 1 1, 1 0, 0 0))"
 Yama<-       "POLYGON ((1 0, 1 1, 2 1, 2 0, 1 0))"
-Catharina<-  "POLYGON ((2 0, 2 1, 3 1, 3 0, 2 0))"
+Katharina<-  "POLYGON ((2 0, 2 1, 3 1, 3 0, 2 0))"
 Valerie<-    "POLYGON ((3 0, 3 1, 4 1, 4 0, 3 0))"
 Kyrill<-     "POLYGON ((3 1, 3 2, 4 2, 4 1, 3 1))"
 Fatima<-     "POLYGON ((2 1, 2 2, 3 2, 3 1, 2 1))"
 Claire<-     "POLYGON ((0 1, 1 2, 0 2, 0 1))"
 
 Classroomdf<-data.frame(geom=rbind(Tatiana,Yama,
-                                   Catharina,Valerie,
+                                   Katharina,Valerie,
                                    Kyrill, Fatima,
                                    Claire))
 Classroomsf<-sf::st_as_sf(Classroomdf, wkt = "geom" ) 
-Classroomsf$id<-c("Tatiana","Yama","Catharina","Valerie", "Kyrill","Fatima","Claire")
+Classroomsf$id<-c("Tatiana","Yama","Katharina","Valerie", "Kyrill","Fatima","Claire")
 Classroomsf$id2<-1:nrow(Classroomsf)
 
 
@@ -77,6 +81,7 @@ spdep::knearneigh(Classroomsf, k=2)
 #Points are in need for nearest neighbours:
 CentroidalStudents<-sf::st_centroid(Classroomsf)
 plot(CentroidalStudents[,"id"])
+ggplot()+geom_sf(data=Classroomsf)+geom_sf(data=CentroidalStudents)
 
 k<-2 #try 3
 knn_classroom<-spdep::knearneigh(CentroidalStudents, k=k)
@@ -103,7 +108,7 @@ ggplot()+
 touching<-sf::st_touches(Classroomsf)
 touching
 # within a distance of 1.5
-d<-0 #try 0 (compare with touching), 1 etc.
+d<-1.5 #try 0 (compare with touching), 1 etc.
 withind<-sf::st_is_within_distance(Classroomsf, dist=d)
 withind
 #A SGBP i.e. sparse geometry binary predicate is returned !
@@ -187,3 +192,4 @@ ggplot()+
   geom_sf(data=Classroomsf, fill="pink", alpha=0.5)+
   geom_sf(data=CoffeeLovers, fill="blue", alpha=0.7)+
   geom_sf(data=symdiffs, fill="NA",col="red", linewidth=2)
+
