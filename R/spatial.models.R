@@ -36,6 +36,9 @@ comk4w<-spdep::nb2listw(comk4nb,style="W")
 comk6w<-spdep::nb2listw(comk6nb,style="W")
 
 #LISA
+source("R/localmoran.withquads.R")
+source("R/ggplot.themap.f.R")
+
 LISA_k4_MPRICEM2<-localmoran.withquads(com101, "MPRICEM2", comk4w, signif=0.05)
 LISA.colours=c("n.s." = "white", "L.L." = "darkblue", "L.H."="lightblue", "H.L." = "pink", "H.H."="darkred") 
 LISA_k4_MPRICEM2_map<-ggplot.themap.f(LISA_k4_MPRICEM2,"signif_quad",
@@ -65,17 +68,50 @@ spdep::moran.test(com101$residOLS1, listw=comk6w)
 
 #LMtests for spatial lag processes
 spdep::lm.LMtests(OLS1,comk6w,test=c("LMerr", "RLMerr","LMlag","RLMlag", "SARMA"))
+#Indicates I should do LMlag model (autoregressive) but we do also others
+#test_all<-spdep::lm.LMtests(OLS1,comk6w,test="all")
+#WARNING Please update scripts to use lm.RStests in place of lm.LMtests
 
-#Indicates I should do LMlag model (autoregressive) but we do also error for fun:
+test_all_robust<-spdep::lm.RStests(OLS1,comk6w,test="all")
+summary(test_all_robust)
+
+
+# SPATIAL MODELS
+
+#1. Spatial Lag Model
 LAG1<-spatialreg::lagsarlm(log(MPRICEM2)~log(MSIZE)+log(VPHC)+DENS2007+log(RAGRI)+log(RFOREST)+log(DI),
                        data=com101, listw= comk6w)
 summary(LAG1)
+spatialreg::impacts(LAG1, listw= comk6w)
 
+#2. Spatial Error Model
 ERR1<-spatialreg::errorsarlm(log(MPRICEM2)~log(MSIZE)+log(VPHC)+DENS2007+log(RAGRI)+log(RFOREST)+log(DI),
                        data=com101, listw= comk6w)
 summary(ERR1)
+spatialreg::impacts(ERR1, listw= comk6w)#No need, same as summary no indriect spillovers
 
+#3. Combined spatial lag and error Model
+SAC1<-spatialreg::sacsarlm(log(MPRICEM2)~log(MSIZE)+log(VPHC)+DENS2007+log(RAGRI)+log(RFOREST)+log(DI),
+data=com101, listw= comk6w)
+summary(SAC1)
+spatialreg::impacts(SAC1, listw= comk6w)
 
+#4. Durbin , i.e. lagged covariates only
+SLX1<-spatialreg::lmSLX(log(MPRICEM2)~log(MSIZE)+log(VPHC)+DENS2007+log(RAGRI)+log(RFOREST)+log(DI),
+                             data=com101, listw= comk6w, Durbin=TRUE)
+   # Durbin is TRUE by construction in this case and defaulted to all covariates 
+summary(SLX1)
+spatialreg::impacts(SLX1, listw= comk6w)#No need
 
+#DURBIN added, i.e. adding lagged X effects in LAG and ERR models
+#5. Spatial lag and Durbin
+LAG1durbin<-spatialreg::lagsarlm(log(MPRICEM2)~log(MSIZE)+log(VPHC)+DENS2007+log(RAGRI)+log(RFOREST)+log(DI),
+                           data=com101, listw= comk6w, Durbin = TRUE)
+summary(LAG1durbin)
+spatialreg::impacts(LAG1durbin, listw= comk6w)
 
-
+#6. Spatial Error and Durbin
+ERR1durbin<-spatialreg::errorsarlm(log(MPRICEM2)~log(MSIZE)+log(VPHC)+DENS2007+log(RAGRI)+log(RFOREST)+log(DI),
+                             data=com101, listw= comk6w,Durbin = TRUE)
+summary(ERR1durbin)
+spatialreg::impacts(ERR1durbin, listw= comk6w)
