@@ -90,6 +90,10 @@ ERR1<-spatialreg::errorsarlm(log(MPRICEM2)~log(MSIZE)+log(VPHC)+DENS2007+log(RAG
 summary(ERR1)
 spatialreg::impacts(ERR1, listw= comk6w)#No need, same as summary no indriect spillovers
 
+ERR11<-spatialreg::spautolm(log(MPRICEM2)~log(MSIZE)+log(VPHC)+DENS2007+log(RAGRI)+log(RFOREST)+log(DI),
+                            data=com101, listw= comk6w)
+
+
 #3. Combined spatial lag and error Model
 SAC1<-spatialreg::sacsarlm(log(MPRICEM2)~log(MSIZE)+log(VPHC)+DENS2007+log(RAGRI)+log(RFOREST)+log(DI),
 data=com101, listw= comk6w)
@@ -101,7 +105,8 @@ SLX1<-spatialreg::lmSLX(log(MPRICEM2)~log(MSIZE)+log(VPHC)+DENS2007+log(RAGRI)+l
                              data=com101, listw= comk6w, Durbin=TRUE)
    # Durbin is TRUE by construction in this case and defaulted to all covariates 
 summary(SLX1)
-spatialreg::impacts(SLX1, listw= comk6w)#No need
+spatialreg::impacts(SLX1, listw= comk6w)
+summary(spatialreg::impacts(SLX1, listw= comk6w))
 
 #DURBIN added, i.e. adding lagged X effects in LAG and ERR models
 #5. Spatial lag and Durbin
@@ -115,3 +120,16 @@ ERR1durbin<-spatialreg::errorsarlm(log(MPRICEM2)~log(MSIZE)+log(VPHC)+DENS2007+l
                              data=com101, listw= comk6w,Durbin = TRUE)
 summary(ERR1durbin)
 spatialreg::impacts(ERR1durbin, listw= comk6w)
+summary(spatialreg::impacts(ERR1durbin, listw= comk6w))
+
+#7. Spatial error and lag (combined) +SLX
+SAC1Durbin<-spatialreg::sacsarlm(log(MPRICEM2)~log(MSIZE)+log(VPHC)+DENS2007+log(RAGRI)+log(RFOREST)+log(DI),
+                           data=com101, listw= comk6w, Durbin = TRUE)
+summary(SAC1Durbin)
+spatialreg::impacts(SAC1Durbin, listw= comk6w)
+
+
+SAC2Durbin<-spatialreg::sacsarlm(log(MPRICEM2)~log(MSIZE)+log(VPHC)+DENS2007,
+                                 data=com101, listw= comk6w, Durbin = TRUE)
+summary(SAC2Durbin)
+spatialreg::impacts(SAC2Durbin, listw= comk6w)
