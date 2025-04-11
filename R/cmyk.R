@@ -67,21 +67,25 @@ spatialreg_cmyk<-ggplot(data = cmyk_spatialreg) +
   scale_fill_identity()+
   geom_text(aes(label=param,x=X,y=Y-0.05), col="grey20",size=5, fontface = "bold")+
   geom_text(aes(label=Name,x=X,y=Y+0.01), size=5)+
-  geom_text(aes(label=Acronym,x=X,y=Y+0.065), size=8, fontface = "bold")+
+  geom_text(aes(label=Acronym,x=X,y=Y+0.06), size=8, fontface = "bold")+
   geom_text(aes(label=Estim,x=X,y=Y-0.03), fontface = "italic",col="black")+
   labs(title="The family of cross-section Spatial Regression Models",
        subtitle="y = \u03b1 + \u03c1Wy + \u03b2X + \u03b8WX + \u03bc   with \u03bc=\u03bbW\u03bc + \u03b5",
-       caption="Wy,WX,W\u03bc are spatially lagged y, X, \u03bc (see spdep::nb2listw() and lag.listw()). \n\u03c1,\u03b8, \u03bb are their respective coefficients (see spatialreg package and
-       https://r-spatial.org/book/17-Econometrics.html. \nUse spatialreg::impacts for marginal effects as soon as \u03c1 or \u03b8 is included so that simultaneity is accounted for.")+
+       caption="Wy,WX,W\u03bc are spatially lagged y, X, \u03bc (see spdep::nb2listw() and lag.listw()). \n\u03c1,\u03b8, \u03bb are their respective coefficients (see spatialreg package). \nUse spatialreg::impacts for marginal effects as soon as \u03c1 or \u03b8 is included so that simultaneity is accounted for.")+
   theme_void()+
   theme(plot.subtitle = element_text(size = 15, hjust = 0.5, face="bold"), 
-        plot.title = element_text(size = 20, hjust = 0.5))+
+        plot.title = element_text(size = 20, hjust = 0.5,face="bold"),
+        plot.caption = element_text(size = 12, hjust = 0))+
   geom_textcurve(aes(x=0.2, y=0.93, xend = 0.8, yend = 0.93), hjust = 0.5, 
                curvature = -0.85, label = "Dependent variable spillover", col="goldenrod", linewidth = 0, size=6)+
   geom_textcurve(aes(x=0.05, y=0.8, xend = 0.5, yend = 0.38), hjust = 0.5, 
                curvature = 0.85, label = "Covariates spillover", col="darkblue", linewidth = 0, size=6)+
   geom_textcurve(aes(x=0.45, y=0.38, xend = 0.95, yend = 0.8), hjust = 0.5, 
-                 curvature = 0.85, label = "Unobserved spillover", col="pink", linewidth = 0, size=6) 
+                 curvature = 0.85, label = "Unobserved spillover", col="pink", linewidth = 0, size=6)+
+  geom_point(size = 20, x=0.35, y=1.26, pch = 19,col=shades::brightness("yellow", 0.9))+
+  geom_point(size = 20, x=0.49, y=1.26, pch = 19,col=shades::brightness("cyan", 0.9))+
+  geom_point(size = 20, x=0.69, y=1.26, pch = 19,col=shades::brightness("magenta", 0.9))
+
 spatialreg_cmyk
 
 png("output/spatialreg_cmyk.png",width=1440, height=1400, res = 144)
